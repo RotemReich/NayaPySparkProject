@@ -42,7 +42,7 @@ car_models_df = spark.createDataFrame(car_models_list, schema=models_schema)
 # car_models_df.printSchema()
 # car_models_df.show()
 
-car_models_df.write.mode("overwrite").csv("s3a://sparkproject/data/dims/car_models.csv", header=True)
+car_models_df.write.mode("overwrite").csv("s3a://spark/data/dims/car_models.csv", header=True)
 
 ##>>>Colors
 colors_schema = T.StructType([
@@ -64,6 +64,6 @@ car_colors_df = spark.createDataFrame(car_colors_list, schema=colors_schema)
 # car_colors_df.printSchema()
 # car_colors_df.show()
 
-car_colors_df.write.mode("overwrite").csv("s3a://sparkproject/data/dims/car_colors.csv", header=True)
+car_colors_df.write.mode("overwrite").csv("s3a://spark/data/dims/car_colors.csv", header=True)
 
 spark.stop()

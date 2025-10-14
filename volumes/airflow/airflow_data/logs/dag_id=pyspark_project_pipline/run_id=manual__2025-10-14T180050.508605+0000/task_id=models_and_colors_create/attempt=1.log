@@ -1,0 +1,96 @@
+[2025-10-14T18:00:52.678+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipline.models_and_colors_create manual__2025-10-14T18:00:50.508605+00:00 [queued]>
+[2025-10-14T18:00:52.684+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipline.models_and_colors_create manual__2025-10-14T18:00:50.508605+00:00 [queued]>
+[2025-10-14T18:00:52.685+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-14T18:00:52.695+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): models_and_colors_create> on 2025-10-14 18:00:50.508605+00:00
+[2025-10-14T18:00:52.699+0000] {standard_task_runner.py:60} INFO - Started process 154 to run task
+[2025-10-14T18:00:52.702+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipline', 'models_and_colors_create', 'manual__2025-10-14T18:00:50.508605+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmpvj8cm0po']
+[2025-10-14T18:00:52.704+0000] {standard_task_runner.py:88} INFO - Job 12: Subtask models_and_colors_create
+[2025-10-14T18:00:52.744+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipline.models_and_colors_create manual__2025-10-14T18:00:50.508605+00:00 [running]> on host f807c778cd29
+[2025-10-14T18:00:52.802+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipline' AIRFLOW_CTX_TASK_ID='models_and_colors_create' AIRFLOW_CTX_EXECUTION_DATE='2025-10-14T18:00:50.508605+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-14T18:00:50.508605+00:00'
+[2025-10-14T18:01:59.322+0000] {pyspark_project_dims.py:50} INFO - STDOUT: :: loading settings :: url = jar:file:/usr/local/lib/python3.10/dist-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+[2025-10-14T18:01:59.323+0000] {pyspark_project_dims.py:51} INFO - STDERR: Ivy Default Cache set to: /root/.ivy2/cache
+The jars for the packages stored in: /root/.ivy2/jars
+org.apache.hadoop#hadoop-aws added as a dependency
+com.amazonaws#aws-java-sdk-bundle added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-0129ea86-f5f0-4497-987e-80ffc76a7cb1;1.0
+	confs: [default]
+	found org.apache.hadoop#hadoop-aws;3.3.2 in central
+	found com.amazonaws#aws-java-sdk-bundle;1.11.1026 in central
+	found org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central
+downloading https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.2/hadoop-aws-3.3.2.jar ...
+	[SUCCESSFUL ] org.apache.hadoop#hadoop-aws;3.3.2!hadoop-aws.jar (229ms)
+downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.1026/aws-java-sdk-bundle-1.11.1026.jar ...
+	[SUCCESSFUL ] com.amazonaws#aws-java-sdk-bundle;1.11.1026!aws-java-sdk-bundle.jar (35509ms)
+downloading https://repo1.maven.org/maven2/org/wildfly/openssl/wildfly-openssl/1.0.7.Final/wildfly-openssl-1.0.7.Final.jar ...
+	[SUCCESSFUL ] org.wildfly.openssl#wildfly-openssl;1.0.7.Final!wildfly-openssl.jar (133ms)
+:: resolution report :: resolve 7241ms :: artifacts dl 35876ms
+	:: modules in use:
+	com.amazonaws#aws-java-sdk-bundle;1.11.1026 from central in [default]
+	org.apache.hadoop#hadoop-aws;3.3.2 from central in [default]
+	org.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]
+	:: evicted modules:
+	com.amazonaws#aws-java-sdk-bundle;1.11.901 by [com.amazonaws#aws-java-sdk-bundle;1.11.1026] in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   4   |   3   |   3   |   1   ||   3   |   3   |
+	---------------------------------------------------------------------
+
+:: problems summary ::
+:::: ERRORS
+	Server access error at url https://repos.spark-packages.org/org/apache/hadoop/hadoop-main/3.3.2/hadoop-main-3.3.2.jar (java.net.SocketException: Network is unreachable (connect failed))
+
+	Server access error at url https://repos.spark-packages.org/org/apache/hadoop/hadoop-project/3.3.2/hadoop-project-3.3.2.jar (java.net.SocketException: Network is unreachable (connect failed))
+
+	Server access error at url https://repos.spark-packages.org/com/amazonaws/aws-java-sdk-pom/1.11.1026/aws-java-sdk-pom-1.11.1026.jar (java.net.SocketException: Network is unreachable (connect failed))
+
+	Server access error at url https://repos.spark-packages.org/org/jboss/jboss-parent/35/jboss-parent-35.jar (java.net.SocketException: Network is unreachable (connect failed))
+
+	Server access error at url https://repos.spark-packages.org/org/wildfly/openssl/wildfly-openssl-parent/1.0.7.Final/wildfly-openssl-parent-1.0.7.Final.jar (java.net.SocketException: Network is unreachable (connect failed))
+
+
+:: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+:: retrieving :: org.apache.spark#spark-submit-parent-0129ea86-f5f0-4497-987e-80ffc76a7cb1
+	confs: [default]
+	3 artifacts copied, 0 already retrieved (222428kB/264ms)
+25/10/14 18:01:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/10/14 18:01:47 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+25/10/14 18:01:49 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+
+[Stage 0:>                                                          (0 + 8) / 8]
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:50 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+
+[Stage 0:===================================================>       (7 + 1) / 8]
+
+                                                                                
+25/10/14 18:01:54 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/14 18:01:55 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+
+[Stage 1:>                                                          (0 + 8) / 8]
+
+[Stage 1:============================================>              (6 + 2) / 8]
+
+                                                                                
+
+[2025-10-14T18:01:59.323+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-10-14T18:01:59.333+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_pipline, task_id=models_and_colors_create, execution_date=20251014T180050, start_date=20251014T180052, end_date=20251014T180159
+[2025-10-14T18:01:59.394+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-14T18:01:59.412+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

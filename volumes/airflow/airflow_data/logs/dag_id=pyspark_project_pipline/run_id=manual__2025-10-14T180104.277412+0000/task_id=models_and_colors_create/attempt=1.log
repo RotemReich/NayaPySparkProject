@@ -1,0 +1,112 @@
+[2025-10-14T18:01:06.047+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipline.models_and_colors_create manual__2025-10-14T18:01:04.277412+00:00 [queued]>
+[2025-10-14T18:01:06.054+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipline.models_and_colors_create manual__2025-10-14T18:01:04.277412+00:00 [queued]>
+[2025-10-14T18:01:06.055+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-14T18:01:06.067+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): models_and_colors_create> on 2025-10-14 18:01:04.277412+00:00
+[2025-10-14T18:01:06.072+0000] {standard_task_runner.py:60} INFO - Started process 168 to run task
+[2025-10-14T18:01:06.075+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipline', 'models_and_colors_create', 'manual__2025-10-14T18:01:04.277412+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmp7fqnjvvk']
+[2025-10-14T18:01:06.077+0000] {standard_task_runner.py:88} INFO - Job 13: Subtask models_and_colors_create
+[2025-10-14T18:01:06.122+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipline.models_and_colors_create manual__2025-10-14T18:01:04.277412+00:00 [running]> on host f807c778cd29
+[2025-10-14T18:01:06.178+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipline' AIRFLOW_CTX_TASK_ID='models_and_colors_create' AIRFLOW_CTX_EXECUTION_DATE='2025-10-14T18:01:04.277412+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-14T18:01:04.277412+00:00'
+[2025-10-14T18:01:49.850+0000] {pyspark_project_dims.py:54} ERROR - Error running 'dims/models_and_colors.py': returncode=1
+[2025-10-14T18:01:49.851+0000] {pyspark_project_dims.py:55} ERROR - STDOUT:
+:: loading settings :: url = jar:file:/usr/local/lib/python3.10/dist-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+[2025-10-14T18:01:49.851+0000] {pyspark_project_dims.py:56} ERROR - STDERR:
+Ivy Default Cache set to: /root/.ivy2/cache
+The jars for the packages stored in: /root/.ivy2/jars
+org.apache.hadoop#hadoop-aws added as a dependency
+com.amazonaws#aws-java-sdk-bundle added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-c0a04f77-0f3d-4edd-9a90-7ca4bcb91985;1.0
+	confs: [default]
+	found org.apache.hadoop#hadoop-aws;3.3.2 in central
+	found com.amazonaws#aws-java-sdk-bundle;1.11.1026 in central
+	found org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central
+downloading https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.1026/aws-java-sdk-bundle-1.11.1026.jar ...
+:: resolution report :: resolve 192ms :: artifacts dl 41517ms
+	:: modules in use:
+	com.amazonaws#aws-java-sdk-bundle;1.11.1026 from central in [default]
+	org.apache.hadoop#hadoop-aws;3.3.2 from central in [default]
+	org.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]
+	:: evicted modules:
+	com.amazonaws#aws-java-sdk-bundle;1.11.901 by [com.amazonaws#aws-java-sdk-bundle;1.11.1026] in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   4   |   0   |   0   |   1   ||   3   |   0   |
+	---------------------------------------------------------------------
+
+:: problems summary ::
+:::: WARNINGS
+		[FAILED     ] com.amazonaws#aws-java-sdk-bundle;1.11.1026!aws-java-sdk-bundle.jar: Downloaded file size (0) doesn't match expected Content Length (226379782) for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.1026/aws-java-sdk-bundle-1.11.1026.jar. Please retry. (41511ms)
+
+		[FAILED     ] com.amazonaws#aws-java-sdk-bundle;1.11.1026!aws-java-sdk-bundle.jar: Downloaded file size (0) doesn't match expected Content Length (226379782) for https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.1026/aws-java-sdk-bundle-1.11.1026.jar. Please retry. (41511ms)
+
+	==== central: tried
+
+	  https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.11.1026/aws-java-sdk-bundle-1.11.1026.jar
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+		::              FAILED DOWNLOADS            ::
+
+		:: ^ see resolution messages for details  ^ ::
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+		:: com.amazonaws#aws-java-sdk-bundle;1.11.1026!aws-java-sdk-bundle.jar
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+:: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+Exception in thread "main" java.lang.RuntimeException: [download failed: com.amazonaws#aws-java-sdk-bundle;1.11.1026!aws-java-sdk-bundle.jar]
+	at org.apache.spark.deploy.SparkSubmitUtils$.resolveMavenCoordinates(SparkSubmit.scala:1528)
+	at org.apache.spark.util.DependencyUtils$.resolveMavenDependencies(DependencyUtils.scala:185)
+	at org.apache.spark.deploy.SparkSubmit.prepareSubmitEnvironment(SparkSubmit.scala:332)
+	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:955)
+	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:192)
+	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:215)
+	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:91)
+	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1111)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1120)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+Traceback (most recent call last):
+  File "/home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py", line 21, in <module>
+    .getOrCreate()
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/sql/session.py", line 477, in getOrCreate
+    sc = SparkContext.getOrCreate(sparkConf)
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/context.py", line 512, in getOrCreate
+    SparkContext(conf=conf or SparkConf())
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/context.py", line 198, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/context.py", line 432, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/java_gateway.py", line 106, in launch_gateway
+    raise RuntimeError("Java gateway process exited before sending its port number")
+RuntimeError: Java gateway process exited before sending its port number
+
+[2025-10-14T18:01:49.852+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 117, in models_and_colors_create
+    run_command("dims/models_and_colors.py", detached=False, minio=True)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 49, in run_command
+    result = subprocess.run(command ,shell=True, check=True, capture_output=True, text=True)
+  File "/usr/local/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'docker exec -e AWS_ACCESS_KEY_ID=minioadmin -e AWS_SECRET_ACCESS_KEY=minioadmin dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py' returned non-zero exit status 1.
+[2025-10-14T18:01:49.864+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pyspark_project_pipline, task_id=models_and_colors_create, execution_date=20251014T180104, start_date=20251014T180106, end_date=20251014T180149
+[2025-10-14T18:01:49.878+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 13 for task models_and_colors_create (Command 'docker exec -e AWS_ACCESS_KEY_ID=minioadmin -e AWS_SECRET_ACCESS_KEY=minioadmin dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py' returned non-zero exit status 1.; 168)
+[2025-10-14T18:01:49.893+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-10-14T18:01:49.916+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,68 @@
+[2025-10-14T15:25:59.845+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipline.wait_for_message manual__2025-10-14T15:24:08.739956+00:00 [queued]>
+[2025-10-14T15:25:59.853+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipline.wait_for_message manual__2025-10-14T15:24:08.739956+00:00 [queued]>
+[2025-10-14T15:25:59.853+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-14T15:25:59.863+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): wait_for_message> on 2025-10-14 15:24:08.739956+00:00
+[2025-10-14T15:25:59.868+0000] {standard_task_runner.py:60} INFO - Started process 310 to run task
+[2025-10-14T15:25:59.871+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipline', 'wait_for_message', 'manual__2025-10-14T15:24:08.739956+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmpxb_4w7zr']
+[2025-10-14T15:25:59.873+0000] {standard_task_runner.py:88} INFO - Job 9: Subtask wait_for_message
+[2025-10-14T15:25:59.917+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipline.wait_for_message manual__2025-10-14T15:24:08.739956+00:00 [running]> on host 9ffbb86cd891
+[2025-10-14T15:25:59.978+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipline' AIRFLOW_CTX_TASK_ID='wait_for_message' AIRFLOW_CTX_EXECUTION_DATE='2025-10-14T15:24:08.739956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-14T15:24:08.739956+00:00'
+[2025-10-14T15:25:59.982+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-14T15:25:59.995+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 9092)]>: Broker version identified as 2.6
+[2025-10-14T15:25:59.996+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-14T15:25:59.997+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('sensors-sample',)
+[2025-10-14T15:25:59.998+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 0.017882347106933594 seconds...
+[2025-10-14T15:26:00.154+0000] {cluster.py:313} WARNING - Topic sensors-sample is not available during auto-create initialization
+[2025-10-14T15:26:00.155+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-14T15:26:00.157+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-14T15:26:00.158+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Closing connection. 
+[2025-10-14T15:26:01.243+0000] {cluster.py:401} INFO - Coordinator for group/***-wait-group is ('coordinator-1001', 'course-kafka', 9092, None)
+[2025-10-14T15:26:01.244+0000] {base.py:788} INFO - Discovered coordinator coordinator-1001 for group ***-wait-group
+[2025-10-14T15:26:01.244+0000] {base.py:848} INFO - Starting new heartbeat thread
+[2025-10-14T15:26:01.245+0000] {consumer.py:365} INFO - Revoking previously assigned partitions () for group ***-wait-group
+[2025-10-14T15:26:01.245+0000] {base.py:419} INFO - Failed to join group ***-wait-group: NodeNotReadyError: coordinator-1001
+[2025-10-14T15:26:01.246+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-14T15:26:01.247+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-14T15:26:01.348+0000] {base.py:532} INFO - (Re-)joining group ***-wait-group
+[2025-10-14T15:26:01.364+0000] {base.py:637} INFO - Received member id kafka-python-2.2.15-ba99d70f-8bfc-4f6c-8e42-656c47a7aac0 for group ***-wait-group; will retry join-group
+[2025-10-14T15:26:01.365+0000] {base.py:419} INFO - Failed to join group ***-wait-group: [Error 79] MemberIdRequiredError
+[2025-10-14T15:26:01.365+0000] {base.py:532} INFO - (Re-)joining group ***-wait-group
+[2025-10-14T15:26:01.385+0000] {base.py:594} INFO - Successfully joined group ***-wait-group <Generation 1 (member_id: kafka-python-2.2.15-ba99d70f-8bfc-4f6c-8e42-656c47a7aac0, protocol: range)>
+[2025-10-14T15:26:01.386+0000] {base.py:596} INFO - Elected group leader -- performing partition assignments using range
+[2025-10-14T15:26:01.386+0000] {range.py:47} WARNING - No partition metadata for topic sensors-sample
+[2025-10-14T15:26:01.433+0000] {subscription_state.py:254} INFO - Updated partition assignment: []
+[2025-10-14T15:26:01.434+0000] {consumer.py:249} INFO - Setting newly assigned partitions () for group ***-wait-group
+[2025-10-14T15:26:04.437+0000] {consumer.py:365} INFO - Revoking previously assigned partitions () for group ***-wait-group
+[2025-10-14T15:26:04.442+0000] {base.py:532} INFO - (Re-)joining group ***-wait-group
+[2025-10-14T15:26:04.451+0000] {base.py:594} INFO - Successfully joined group ***-wait-group <Generation 2 (member_id: kafka-python-2.2.15-ba99d70f-8bfc-4f6c-8e42-656c47a7aac0, protocol: range)>
+[2025-10-14T15:26:04.452+0000] {base.py:596} INFO - Elected group leader -- performing partition assignments using range
+[2025-10-14T15:26:04.456+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('sensors-sample', 0)]
+[2025-10-14T15:26:04.461+0000] {consumer.py:249} INFO - Setting newly assigned partitions (('sensors-sample', 0),) for group ***-wait-group
+[2025-10-14T15:26:04.477+0000] {fetcher.py:418} INFO - Resetting offset for partition ('sensors-sample', 0) to offset 0.
+[2025-10-14T15:26:15.006+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 15.026288747787476 seconds...
+[2025-10-14T15:26:30.018+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 30.03769087791443 seconds...
+[2025-10-14T15:26:45.029+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 45.048563957214355 seconds...
+[2025-10-14T15:27:00.035+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 60.05482816696167 seconds...
+[2025-10-14T15:27:15.042+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 75.06204104423523 seconds...
+[2025-10-14T15:27:30.049+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 90.06922698020935 seconds...
+[2025-10-14T15:27:45.053+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 105.07323908805847 seconds...
+[2025-10-14T15:28:00.064+0000] {pyspark_project_dims.py:82} INFO - Trying to find messages in kafka topic sensors-sample after 120.0840859413147 seconds...
+[2025-10-14T15:28:00.065+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 84, in wait_for_message
+    raise TimeoutError(f"No message recieved on topic {topic} after {max_timeout_seconds} seconds")
+TimeoutError: No message recieved on topic sensors-sample after 120 seconds
+[2025-10-14T15:28:00.076+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pyspark_project_pipline, task_id=wait_for_message, execution_date=20251014T152408, start_date=20251014T152559, end_date=20251014T152800
+[2025-10-14T15:28:00.087+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 9 for task wait_for_message (No message recieved on topic sensors-sample after 120 seconds; 310)
+[2025-10-14T15:28:00.134+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-10-14T15:28:00.153+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

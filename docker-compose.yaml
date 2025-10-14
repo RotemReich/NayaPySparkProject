@@ -133,11 +133,10 @@ services:
           <<: *aws-env-var
 
         volumes:
-            - "./volumes/Spark/exercises:/home/developer/projects/spark-course-python/spark_course_python/exercises"
+            #- "./volumes/Spark/exercises:/home/developer/projects/spark-course-python/spark_course_python/exercises"
             - "./volumes/Spark/project:/home/developer/projects/spark-course-python/spark_course_python/project"
             #- "./volumes/Spark/.vscode-server:/home/developer/.vscode-server/"
             # - "./volumes/Spark/.cache:/home/developer/.cache/"
-            #- vscode_server_data:/home/developer/.vscode-server/
         
         #End >>> Rotem Reich additions
         

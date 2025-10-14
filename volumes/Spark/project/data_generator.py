@@ -34,14 +34,13 @@ producer = KafkaProducer(
     value_serializer=lambda msg: msg.encode("UTF-8")
 )
 
-#create kafka topic
+#see if topic exists
 admin_client = KafkaAdminClient(bootstrap_servers=[course_broker])
-new_topic = NewTopic(name=my_Topic, num_partitions=1, replication_factor=1)
+#new_topic = NewTopic(name=my_Topic, num_partitions=1, replication_factor=1)
+existing_topics = admin_client.list_topics()
 
-try:
-    admin_client.create_topics(new_topics=[new_topic], validate_only=False)
-except kafka_errors.TopicAlreadyExistsError:
-    print("="*100, f"\n\nDidn't create a new topic, topic \"{my_Topic}\" already exists\n\nReading last event_id\n")
+if my_Topic in existing_topics:
+    print("="*100, "\n\n", f"Topic \"{my_Topic}\" already exists. Reading last event_id\n")
     schem = T.StructType([
         T.StructField("event_id", T.IntegerType()),
         T.StructField("event_time", T.TimestampType()),
@@ -64,14 +63,12 @@ except kafka_errors.TopicAlreadyExistsError:
         .select(F.col("event_id"))
     )
     #raw_data_df.show()    
-    rn = raw_data_df.agg(F.max(F.col("event_id")).alias("event_id")).first()["event_id"]
-    
-    print(f"next 'event_id' will be {rn+1}\n\n")
-except kafka_errors.InvalidReplicationFactorError as rf:
-    print("="*100, f"\n\nError {rf.errno}: {rf.message}\n\n", "="*100)
+    if raw_data_df.count()>0:
+        rn = raw_data_df.agg(F.max(F.col("event_id")).alias("event_id")).first()["event_id"]
+        print(f"next 'event_id' will be {rn+1}\n\n")
 
 
-cars_df = spark.read.csv("s3a://sparkproject/data/dims/cars.csv", header=True)
+cars_df = spark.read.csv("s3a://spark/data/dims/cars.csv", header=True)
 cars_df.cache()
 # cars_df.show()
 
@@ -99,7 +96,7 @@ while True:
     
     producer.flush()
     rn += 20
-    time.sleep(1)
+    time.sleep(10)
 
 cars_df.unpersist()
 spark.stop()

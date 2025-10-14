@@ -42,6 +42,6 @@ cars_list = [
 cars_df = spark.createDataFrame(cars_list, schema=cars_schema)
 # cars_df.show(20)
 
-cars_df.write.mode("overwrite").csv("s3a://sparkproject/data/dims/cars.csv", header=True)
+cars_df.write.mode("overwrite").csv("s3a://spark/data/dims/cars.csv", header=True)
 
 spark.stop()

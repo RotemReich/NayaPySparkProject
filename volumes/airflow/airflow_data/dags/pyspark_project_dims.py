@@ -6,14 +6,12 @@ from datetime import datetime
 import time
 import os
 from kafka import KafkaConsumer
-from kafka.admin import KafkaAdminClient
-from kafka.errors import UnknownTopicOrPartitionError
 
 
 log = LoggingMixin().log
 
 @dag(
-    dag_id = "pyspark_project_rotem_dims",
+    dag_id = "pyspark_project_pipline",
     start_date=datetime(2023, 1, 1),
     schedule_interval=None,
     catchup=False,
@@ -64,9 +62,39 @@ def pyspark_project_pipeline():
         time.sleep(seconds)
         print(f">>>{seconds} seconds are over!")
     
+    def create_kafka_topic(topic_name: str):
+        
+        command_topics_list = f"docker exec course-kafka kafka-topics.sh --list --bootstrap-server course-kafka:9092"
+        
+        command = f"""docker exec course-kafka kafka-topics.sh \\
+                    --create \\
+                    --topic {topic_name} \\
+                    --bootstrap-server course-kafka:9092 \\
+                    --partitions 1 \\
+                    --replication-factor 1
+                    """
+        try:
+            topics_list = subprocess.run(command_topics_list, shell=True, check=True, capture_output=True, text=True)
+            existing_topics = [t.strip() for t in topics_list.stdout.splitlines()]
+            
+            if topic_name in existing_topics:
+                log.info(f"Topic '{topic_name}' already exists\nNo topic was created.")
+                return f"Topic '{topic_name}' already exists"
+                        
+            result = subprocess.run(command, shell=True, check=True, capture_output=True, text=True)
+            log.info("STDOUT: %s", result.stdout)
+            log.info("STDERR: %s", result.stderr)
+            return f"Topic '{topic_name}' was created"
+        except subprocess.CalledProcessError as e:
+            log.error("Error running '%s': returncode=%s", topic_name, e.returncode)
+            log.error("STDOUT:\n%s", e.stdout)
+            log.error("STDERR:\n%s", e.stderr)
+            raise
+        
+    
     @task
     def wait_for_message(topic: str):
-        max_timeout_seconds = 120
+        max_timeout_seconds = 90
         poll_interval = 10
         start_time = time.time()
         
@@ -102,6 +130,10 @@ def pyspark_project_pipeline():
         run_command("dims/cars.py", detached=False, minio=True)
     
     @task
+    def create_topic_sensors_sample():
+        create_kafka_topic("sensors-sample")
+    
+    @task
     #To kill, run this command in bash: docker exec dev_env pkill -f /home/developer/projects/spark-course-python/spark_course_python/project/data_generator.py
     def data_generator():
         run_command("data_generator.py", detached=True, minio=True)
@@ -110,7 +142,17 @@ def pyspark_project_pipeline():
     #To kill, run this command in bash: docker exec dev_env pkill -f /home/developer/projects/spark-course-python/spark_course_python/project/data_enrichment.py
     def data_enrichment():
         run_command("data_enrichment.py", detached=True)
-        
-    models_and_colors_create() >> cars_create() >> data_generator() >> wait_task(10) >> wait_for_message("sensors-sample") >> data_enrichment()
+    
+    (
+        #models_and_colors_create()
+        #>> cars_create()
+        #>>
+        create_topic_sensors_sample()
+        >>
+        data_generator()
+        #>> wait_task(10)
+        #>> wait_for_message("sensors-sample")
+        #>> data_enrichment()
+    )    
 
 dag = pyspark_project_pipeline()
