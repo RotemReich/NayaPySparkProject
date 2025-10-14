@@ -1,0 +1,16 @@
+[2025-10-08T11:26:02.868+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ecommerce_sales_pipeline.transform_sales_data manual__2025-10-08T11:25:59.219997+00:00 [queued]>
+[2025-10-08T11:26:02.874+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ecommerce_sales_pipeline.transform_sales_data manual__2025-10-08T11:25:59.219997+00:00 [queued]>
+[2025-10-08T11:26:02.874+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-08T11:26:02.886+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): transform_sales_data> on 2025-10-08 11:25:59.219997+00:00
+[2025-10-08T11:26:02.889+0000] {standard_task_runner.py:60} INFO - Started process 293 to run task
+[2025-10-08T11:26:02.892+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ecommerce_sales_pipeline', 'transform_sales_data', 'manual__2025-10-08T11:25:59.219997+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/ecommerce_sales_pipeline.py', '--cfg-path', '/tmp/tmpxmmrgjwy']
+[2025-10-08T11:26:02.893+0000] {standard_task_runner.py:88} INFO - Job 5: Subtask transform_sales_data
+[2025-10-08T11:26:02.930+0000] {task_command.py:423} INFO - Running <TaskInstance: ecommerce_sales_pipeline.transform_sales_data manual__2025-10-08T11:25:59.219997+00:00 [running]> on host e5af9feb33a9
+[2025-10-08T11:26:02.987+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ecommerce_sales_pipeline' AIRFLOW_CTX_TASK_ID='transform_sales_data' AIRFLOW_CTX_EXECUTION_DATE='2025-10-08T11:25:59.219997+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-08T11:25:59.219997+00:00'
+[2025-10-08T11:26:13.039+0000] {python.py:202} INFO - Done. Returned value was:      product  quantity  total_revenue
+0  Product A        22          451.0
+1  Product B        12          189.0
+2  Product C         8          176.0
+[2025-10-08T11:26:13.063+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=ecommerce_sales_pipeline, task_id=transform_sales_data, execution_date=20251008T112559, start_date=20251008T112602, end_date=20251008T112613
+[2025-10-08T11:26:13.117+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-08T11:26:13.132+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

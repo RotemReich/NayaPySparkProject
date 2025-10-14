@@ -1,0 +1,34 @@
+[2025-10-09T12:27:22.770+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T12:27:20.713791+00:00 [queued]>
+[2025-10-09T12:27:22.776+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T12:27:20.713791+00:00 [queued]>
+[2025-10-09T12:27:22.777+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-09T12:27:22.786+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): models_and_colors_create> on 2025-10-09 12:27:20.713791+00:00
+[2025-10-09T12:27:22.790+0000] {standard_task_runner.py:60} INFO - Started process 110 to run task
+[2025-10-09T12:27:22.792+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_rotem_dims', 'models_and_colors_create', 'manual__2025-10-09T12:27:20.713791+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmpp41p6gnh']
+[2025-10-09T12:27:22.794+0000] {standard_task_runner.py:88} INFO - Job 19: Subtask models_and_colors_create
+[2025-10-09T12:27:22.831+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T12:27:20.713791+00:00 [running]> on host e76c6cb37b80
+[2025-10-09T12:27:22.888+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_rotem_dims' AIRFLOW_CTX_TASK_ID='models_and_colors_create' AIRFLOW_CTX_EXECUTION_DATE='2025-10-09T12:27:20.713791+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-09T12:27:20.713791+00:00'
+[2025-10-09T12:27:22.961+0000] {logging_mixin.py:188} INFO - Error running 'models_and_colors.py': returncode=2
+[2025-10-09T12:27:22.961+0000] {logging_mixin.py:188} INFO - STDOUT:
+[2025-10-09T12:27:22.962+0000] {logging_mixin.py:188} INFO - STDERR:
+/usr/bin/python3: can't open file '/home/developer/projects/spark-course-python/spark-course-python/project/dims/models_and_colors.py': [Errno 2] No such file or directory
+[2025-10-09T12:27:22.962+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 23, in models_and_colors_create
+    result = subprocess.run(command ,shell=True, check=True, capture_output=True, text=True)
+  File "/usr/local/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'docker exec dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark-course-python/project/dims/models_and_colors.py' returned non-zero exit status 2.
+[2025-10-09T12:27:22.971+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pyspark_project_rotem_dims, task_id=models_and_colors_create, execution_date=20251009T122720, start_date=20251009T122722, end_date=20251009T122722
+[2025-10-09T12:27:22.981+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 19 for task models_and_colors_create (Command 'docker exec dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark-course-python/project/dims/models_and_colors.py' returned non-zero exit status 2.; 110)
+[2025-10-09T12:27:23.005+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-10-09T12:27:23.017+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

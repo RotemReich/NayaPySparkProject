@@ -1,0 +1,309 @@
+[2025-10-09T09:01:19.754+0000] {processor.py:161} INFO - Started process (PID=8680) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:01:19.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:01:19.757+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:01:19.756+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:01:19.786+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:01:19.784+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:01:19.787+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:01:19.803+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.052 seconds
+[2025-10-09T09:01:50.416+0000] {processor.py:161} INFO - Started process (PID=8739) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:01:50.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:01:50.418+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:01:50.418+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:01:50.440+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:01:50.437+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:01:50.441+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:01:50.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.042 seconds
+[2025-10-09T09:02:20.376+0000] {processor.py:161} INFO - Started process (PID=8799) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:02:20.377+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:02:20.379+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:20.379+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:20.391+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:20.390+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 7
+    start_date=datetime(2023, 1, 1),
+    ^
+SyntaxError: invalid syntax
+[2025-10-09T09:02:20.391+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:20.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.034 seconds
+[2025-10-09T09:02:35.536+0000] {processor.py:161} INFO - Started process (PID=8808) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:02:35.537+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:02:35.539+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:35.539+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:35.555+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:35.555+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 7
+    start_date=datetime(2023, 1, 1),
+    ^
+SyntaxError: invalid syntax
+[2025-10-09T09:02:35.556+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:35.571+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.037 seconds
+[2025-10-09T09:02:55.183+0000] {processor.py:161} INFO - Started process (PID=8861) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:02:55.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:02:55.185+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:55.185+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:55.200+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:55.200+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 7
+    start_date=datetime(2023, 1, 1),
+    ^
+SyntaxError: invalid syntax
+[2025-10-09T09:02:55.201+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:55.216+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.036 seconds
+[2025-10-09T09:02:58.211+0000] {processor.py:161} INFO - Started process (PID=8868) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:02:58.212+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:02:58.214+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:58.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:58.226+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:02:58.225+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 7
+    start_date=datetime(2023, 1, 1),
+    ^
+SyntaxError: invalid syntax
+[2025-10-09T09:02:58.226+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:02:58.243+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.036 seconds
+[2025-10-09T09:03:06.330+0000] {processor.py:161} INFO - Started process (PID=8869) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:03:06.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:03:06.332+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:03:06.332+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:03:06.348+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:03:06.347+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 7
+    start_date=datetime(2023, 1, 1),
+    ^
+SyntaxError: invalid syntax
+[2025-10-09T09:03:06.348+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:03:06.363+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.035 seconds
+[2025-10-09T09:03:12.641+0000] {processor.py:161} INFO - Started process (PID=8874) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:03:12.642+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:03:12.643+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:03:12.643+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:03:12.672+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:03:12.669+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:03:12.673+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:03:12.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.050 seconds
+[2025-10-09T09:03:32.360+0000] {processor.py:161} INFO - Started process (PID=8929) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:03:32.361+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:03:32.363+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:03:32.363+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:03:32.396+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:03:32.393+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:03:32.397+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:03:32.412+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.054 seconds
+[2025-10-09T09:04:02.545+0000] {processor.py:161} INFO - Started process (PID=8988) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:04:02.546+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:04:02.547+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:02.547+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:02.569+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:02.566+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:04:02.570+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:02.585+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.043 seconds
+[2025-10-09T09:04:03.560+0000] {processor.py:161} INFO - Started process (PID=8989) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:04:03.561+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:04:03.563+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:03.563+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:03.598+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:03.594+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:04:03.599+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:03.615+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.058 seconds
+[2025-10-09T09:04:33.919+0000] {processor.py:161} INFO - Started process (PID=9048) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:04:33.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:04:33.922+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:33.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:33.945+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:33.942+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from dims import models_and_colors, cars
+ImportError: cannot import name 'models_and_colors' from partially initialized module 'dims' (most likely due to a circular import) (/opt/airflow/dags/dims.py)
+[2025-10-09T09:04:33.946+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:33.961+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.044 seconds
+[2025-10-09T09:04:58.785+0000] {processor.py:161} INFO - Started process (PID=9105) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:04:58.786+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:04:58.788+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:58.787+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:58.841+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:04:58.834+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:04:58.844+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:04:58.862+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.079 seconds
+[2025-10-09T09:05:01.925+0000] {processor.py:161} INFO - Started process (PID=9108) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:05:01.926+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:05:01.928+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:01.928+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:01.964+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:01.959+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:05:01.967+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:01.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.059 seconds
+[2025-10-09T09:05:22.120+0000] {processor.py:161} INFO - Started process (PID=9159) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:05:22.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:05:22.123+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:22.123+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:22.168+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:22.162+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:05:22.170+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:22.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.068 seconds
+[2025-10-09T09:05:27.171+0000] {processor.py:161} INFO - Started process (PID=9166) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:05:27.172+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:05:27.174+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:27.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:27.213+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:27.207+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:05:27.215+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:27.233+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.064 seconds
+[2025-10-09T09:05:57.927+0000] {processor.py:161} INFO - Started process (PID=9225) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:05:57.928+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:05:57.930+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:57.929+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:57.958+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:05:57.952+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:05:57.961+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:05:57.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.051 seconds
+[2025-10-09T09:06:28.908+0000] {processor.py:161} INFO - Started process (PID=9284) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:06:28.909+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:06:28.911+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:06:28.910+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:06:28.943+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:06:28.935+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:06:28.946+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:06:28.962+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.057 seconds
+[2025-10-09T09:06:59.916+0000] {processor.py:161} INFO - Started process (PID=9343) to work on /opt/airflow/dags/dims.py
+[2025-10-09T09:06:59.917+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/dims.py for tasks to queue
+[2025-10-09T09:06:59.919+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:06:59.919+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/dims.py
+[2025-10-09T09:06:59.954+0000] {logging_mixin.py:188} INFO - [2025-10-09T09:06:59.947+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/dims.py", line 2, in <module>
+    from project import models_and_colors, cars
+  File "/opt/airflow/dags/project/models_and_colors.py", line 1, in <module>
+    from pyspark.sql import SparkSession, Row
+ModuleNotFoundError: No module named 'pyspark'
+[2025-10-09T09:06:59.956+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/dims.py
+[2025-10-09T09:06:59.972+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/dims.py took 0.059 seconds

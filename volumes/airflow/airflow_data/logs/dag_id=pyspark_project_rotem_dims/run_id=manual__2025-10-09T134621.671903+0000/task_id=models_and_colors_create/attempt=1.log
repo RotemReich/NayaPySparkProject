@@ -1,0 +1,197 @@
+[2025-10-09T13:46:24.337+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T13:46:21.671903+00:00 [queued]>
+[2025-10-09T13:46:24.343+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T13:46:21.671903+00:00 [queued]>
+[2025-10-09T13:46:24.343+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-09T13:46:24.353+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): models_and_colors_create> on 2025-10-09 13:46:21.671903+00:00
+[2025-10-09T13:46:24.357+0000] {standard_task_runner.py:60} INFO - Started process 100 to run task
+[2025-10-09T13:46:24.359+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_rotem_dims', 'models_and_colors_create', 'manual__2025-10-09T13:46:21.671903+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmphrzlo227']
+[2025-10-09T13:46:24.361+0000] {standard_task_runner.py:88} INFO - Job 24: Subtask models_and_colors_create
+[2025-10-09T13:46:24.398+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T13:46:21.671903+00:00 [running]> on host 967b7b6b5e5c
+[2025-10-09T13:46:24.452+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_rotem_dims' AIRFLOW_CTX_TASK_ID='models_and_colors_create' AIRFLOW_CTX_EXECUTION_DATE='2025-10-09T13:46:21.671903+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-09T13:46:21.671903+00:00'
+[2025-10-09T13:46:51.026+0000] {logging_mixin.py:188} INFO - Error running 'models_and_colors.py': returncode=1
+[2025-10-09T13:46:51.026+0000] {logging_mixin.py:188} INFO - STDOUT:
+:: loading settings :: url = jar:file:/usr/local/lib/python3.10/dist-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+[2025-10-09T13:46:51.027+0000] {logging_mixin.py:188} INFO - STDERR:
+Ivy Default Cache set to: /root/.ivy2/cache
+The jars for the packages stored in: /root/.ivy2/jars
+org.apache.spark#spark-sql-kafka-0-10_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-f98ca5d8-b440-427f-8dc0-d7cd9d8222a5;1.0
+	confs: [default]
+You probably access the destination server through a proxy server that is not well configured.
+You probably access the destination server through a proxy server that is not well configured.
+	found org.apache.spark#spark-sql-kafka-0-10_2.12;3.1.2 in central
+	found org.apache.spark#spark-token-provider-kafka-0-10_2.12;3.1.2 in central
+	found org.apache.kafka#kafka-clients;2.6.0 in central
+	found com.github.luben#zstd-jni;1.4.8-1 in central
+	found org.lz4#lz4-java;1.7.1 in central
+	found org.xerial.snappy#snappy-java;1.1.8.2 in central
+You probably access the destination server through a proxy server that is not well configured.
+	found org.slf4j#slf4j-api;1.7.30 in central
+You probably access the destination server through a proxy server that is not well configured.
+	found org.spark-project.spark#unused;1.0.0 in central
+You probably access the destination server through a proxy server that is not well configured.
+You probably access the destination server through a proxy server that is not well configured.
+	found org.apache.commons#commons-pool2;2.6.2 in central
+downloading https://repo1.maven.org/maven2/org/apache/spark/spark-sql-kafka-0-10_2.12/3.1.2/spark-sql-kafka-0-10_2.12-3.1.2.jar ...
+	[SUCCESSFUL ] org.apache.spark#spark-sql-kafka-0-10_2.12;3.1.2!spark-sql-kafka-0-10_2.12.jar (227ms)
+downloading https://repo1.maven.org/maven2/org/apache/spark/spark-token-provider-kafka-0-10_2.12/3.1.2/spark-token-provider-kafka-0-10_2.12-3.1.2.jar ...
+	[SUCCESSFUL ] org.apache.spark#spark-token-provider-kafka-0-10_2.12;3.1.2!spark-token-provider-kafka-0-10_2.12.jar (87ms)
+downloading https://repo1.maven.org/maven2/org/apache/kafka/kafka-clients/2.6.0/kafka-clients-2.6.0.jar ...
+	[SUCCESSFUL ] org.apache.kafka#kafka-clients;2.6.0!kafka-clients.jar (920ms)
+downloading https://repo1.maven.org/maven2/org/apache/commons/commons-pool2/2.6.2/commons-pool2-2.6.2.jar ...
+	[SUCCESSFUL ] org.apache.commons#commons-pool2;2.6.2!commons-pool2.jar (250ms)
+downloading https://repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar ...
+	[SUCCESSFUL ] org.spark-project.spark#unused;1.0.0!unused.jar (80ms)
+downloading https://repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.8-1/zstd-jni-1.4.8-1.jar ...
+	[SUCCESSFUL ] com.github.luben#zstd-jni;1.4.8-1!zstd-jni.jar (1171ms)
+downloading https://repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar ...
+	[SUCCESSFUL ] org.lz4#lz4-java;1.7.1!lz4-java.jar (188ms)
+downloading https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.8.2/snappy-java-1.1.8.2.jar ...
+	[SUCCESSFUL ] org.xerial.snappy#snappy-java;1.1.8.2!snappy-java.jar(bundle) (464ms)
+downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar ...
+	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.30!slf4j-api.jar (85ms)
+:: resolution report :: resolve 12765ms :: artifacts dl 3478ms
+	:: modules in use:
+	com.github.luben#zstd-jni;1.4.8-1 from central in [default]
+	org.apache.commons#commons-pool2;2.6.2 from central in [default]
+	org.apache.kafka#kafka-clients;2.6.0 from central in [default]
+	org.apache.spark#spark-sql-kafka-0-10_2.12;3.1.2 from central in [default]
+	org.apache.spark#spark-token-provider-kafka-0-10_2.12;3.1.2 from central in [default]
+	org.lz4#lz4-java;1.7.1 from central in [default]
+	org.slf4j#slf4j-api;1.7.30 from central in [default]
+	org.spark-project.spark#unused;1.0.0 from central in [default]
+	org.xerial.snappy#snappy-java;1.1.8.2 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   9   |   9   |   9   |   0   ||   9   |   9   |
+	---------------------------------------------------------------------
+
+:: problems summary ::
+:::: WARNINGS
+	Host repos.spark-packages.org not found. url=https://repos.spark-packages.org/org/apache/apache/18/apache-18.jar
+
+	Host repos.spark-packages.org not found. url=https://repos.spark-packages.org/org/apache/spark/spark-parent_2.12/3.1.2/spark-parent_2.12-3.1.2.jar
+
+	Host repos.spark-packages.org not found. url=https://repos.spark-packages.org/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.jar
+
+	Host repos.spark-packages.org not found. url=https://repos.spark-packages.org/org/sonatype/oss/oss-parent/9/oss-parent-9.jar
+
+	Host repos.spark-packages.org not found. url=https://repos.spark-packages.org/org/apache/apache/21/apache-21.jar
+
+	Host repos.spark-packages.org not found. url=https://repos.spark-packages.org/org/apache/commons/commons-parent/48/commons-parent-48.jar
+
+
+:: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+:: retrieving :: org.apache.spark#spark-submit-parent-f98ca5d8-b440-427f-8dc0-d7cd9d8222a5
+	confs: [default]
+	9 artifacts copied, 0 already retrieved (13083kB/16ms)
+25/10/09 13:46:42 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/10/09 13:46:45 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+Traceback (most recent call last):
+  File "/home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py", line 27, in <module>
+    car_models_df.write.mode("overwrite").csv("s3a://sparkproject/data/dims/car_models.csv", header=True)
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/sql/readwriter.py", line 1799, in csv
+    self._jwrite.csv(path)
+  File "/usr/local/lib/python3.10/dist-packages/py4j/java_gateway.py", line 1322, in __call__
+    return_value = get_return_value(
+  File "/usr/local/lib/python3.10/dist-packages/pyspark/errors/exceptions/captured.py", line 169, in deco
+    return f(*a, **kw)
+  File "/usr/local/lib/python3.10/dist-packages/py4j/protocol.py", line 326, in get_return_value
+    raise Py4JJavaError(
+py4j.protocol.Py4JJavaError: An error occurred while calling o51.csv.
+: java.nio.file.AccessDeniedException: s3a://sparkproject/data/dims/car_models.csv: getFileStatus on s3a://sparkproject/data/dims/car_models.csv: com.amazonaws.services.s3.model.AmazonS3Exception: Forbidden (Service: Amazon S3; Status Code: 403; Error Code: 403 Forbidden; Request ID: MCGAFAW00Z47CEXQ; S3 Extended Request ID: hQerSdsfDyJagMao16jVgSWiwnEGmbJ/XipspVko0qJNQ0H+Ii1+h3q9ajoYa6Rd8+of6lt1Erg=; Proxy: null), S3 Extended Request ID: hQerSdsfDyJagMao16jVgSWiwnEGmbJ/XipspVko0qJNQ0H+Ii1+h3q9ajoYa6Rd8+of6lt1Erg=:403 Forbidden
+	at org.apache.hadoop.fs.s3a.S3AUtils.translateException(S3AUtils.java:249)
+	at org.apache.hadoop.fs.s3a.S3AUtils.translateException(S3AUtils.java:170)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.s3GetFileStatus(S3AFileSystem.java:3286)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.innerGetFileStatus(S3AFileSystem.java:3185)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.getFileStatus(S3AFileSystem.java:3053)
+	at org.apache.hadoop.fs.FileSystem.exists(FileSystem.java:1760)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.exists(S3AFileSystem.java:4263)
+	at org.apache.spark.sql.execution.datasources.InsertIntoHadoopFsRelationCommand.run(InsertIntoHadoopFsRelationCommand.scala:120)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult$lzycompute(commands.scala:113)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.sideEffectResult(commands.scala:111)
+	at org.apache.spark.sql.execution.command.DataWritingCommandExec.executeCollect(commands.scala:125)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.$anonfun$applyOrElse$1(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$6(SQLExecution.scala:118)
+	at org.apache.spark.sql.execution.SQLExecution$.withSQLConfPropagated(SQLExecution.scala:195)
+	at org.apache.spark.sql.execution.SQLExecution$.$anonfun$withNewExecutionId$1(SQLExecution.scala:103)
+	at org.apache.spark.sql.SparkSession.withActive(SparkSession.scala:827)
+	at org.apache.spark.sql.execution.SQLExecution$.withNewExecutionId(SQLExecution.scala:65)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:98)
+	at org.apache.spark.sql.execution.QueryExecution$$anonfun$eagerlyExecuteCommands$1.applyOrElse(QueryExecution.scala:94)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.$anonfun$transformDownWithPruning$1(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.trees.CurrentOrigin$.withOrigin(TreeNode.scala:104)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDownWithPruning(TreeNode.scala:512)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.org$apache$spark$sql$catalyst$plans$logical$AnalysisHelper$$super$transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning(AnalysisHelper.scala:267)
+	at org.apache.spark.sql.catalyst.plans.logical.AnalysisHelper.transformDownWithPruning$(AnalysisHelper.scala:263)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.plans.logical.LogicalPlan.transformDownWithPruning(LogicalPlan.scala:31)
+	at org.apache.spark.sql.catalyst.trees.TreeNode.transformDown(TreeNode.scala:488)
+	at org.apache.spark.sql.execution.QueryExecution.eagerlyExecuteCommands(QueryExecution.scala:94)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted$lzycompute(QueryExecution.scala:81)
+	at org.apache.spark.sql.execution.QueryExecution.commandExecuted(QueryExecution.scala:79)
+	at org.apache.spark.sql.execution.QueryExecution.assertCommandExecuted(QueryExecution.scala:133)
+	at org.apache.spark.sql.DataFrameWriter.runCommand(DataFrameWriter.scala:856)
+	at org.apache.spark.sql.DataFrameWriter.saveToV1Source(DataFrameWriter.scala:387)
+	at org.apache.spark.sql.DataFrameWriter.saveInternal(DataFrameWriter.scala:360)
+	at org.apache.spark.sql.DataFrameWriter.save(DataFrameWriter.scala:239)
+	at org.apache.spark.sql.DataFrameWriter.csv(DataFrameWriter.scala:847)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: com.amazonaws.services.s3.model.AmazonS3Exception: Forbidden (Service: Amazon S3; Status Code: 403; Error Code: 403 Forbidden; Request ID: MCGAFAW00Z47CEXQ; S3 Extended Request ID: hQerSdsfDyJagMao16jVgSWiwnEGmbJ/XipspVko0qJNQ0H+Ii1+h3q9ajoYa6Rd8+of6lt1Erg=; Proxy: null), S3 Extended Request ID: hQerSdsfDyJagMao16jVgSWiwnEGmbJ/XipspVko0qJNQ0H+Ii1+h3q9ajoYa6Rd8+of6lt1Erg=
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleErrorResponse(AmazonHttpClient.java:1828)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.handleServiceErrorResponse(AmazonHttpClient.java:1412)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeOneRequest(AmazonHttpClient.java:1374)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeHelper(AmazonHttpClient.java:1145)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.doExecute(AmazonHttpClient.java:802)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.executeWithTimer(AmazonHttpClient.java:770)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.execute(AmazonHttpClient.java:744)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutor.access$500(AmazonHttpClient.java:704)
+	at com.amazonaws.http.AmazonHttpClient$RequestExecutionBuilderImpl.execute(AmazonHttpClient.java:686)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:550)
+	at com.amazonaws.http.AmazonHttpClient.execute(AmazonHttpClient.java:530)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5227)
+	at com.amazonaws.services.s3.AmazonS3Client.invoke(AmazonS3Client.java:5173)
+	at com.amazonaws.services.s3.AmazonS3Client.getObjectMetadata(AmazonS3Client.java:1360)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.lambda$getObjectMetadata$6(S3AFileSystem.java:2066)
+	at org.apache.hadoop.fs.s3a.Invoker.retryUntranslated(Invoker.java:412)
+	at org.apache.hadoop.fs.s3a.Invoker.retryUntranslated(Invoker.java:375)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.getObjectMetadata(S3AFileSystem.java:2056)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.getObjectMetadata(S3AFileSystem.java:2032)
+	at org.apache.hadoop.fs.s3a.S3AFileSystem.s3GetFileStatus(S3AFileSystem.java:3273)
+	... 46 more
+[2025-10-09T13:46:51.027+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 23, in models_and_colors_create
+    result = subprocess.run(command ,shell=True, check=True, capture_output=True, text=True)
+  File "/usr/local/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'docker exec dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py' returned non-zero exit status 1.
+[2025-10-09T13:46:51.036+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pyspark_project_rotem_dims, task_id=models_and_colors_create, execution_date=20251009T134621, start_date=20251009T134624, end_date=20251009T134651
+[2025-10-09T13:46:51.047+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 24 for task models_and_colors_create (Command 'docker exec dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py' returned non-zero exit status 1.; 100)
+[2025-10-09T13:46:51.083+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-10-09T13:46:51.094+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

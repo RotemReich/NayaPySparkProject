@@ -1,0 +1,15 @@
+[2025-10-13T08:32:29.440+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.data_generator manual__2025-10-13T08:31:20.921457+00:00 [queued]>
+[2025-10-13T08:32:29.447+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.data_generator manual__2025-10-13T08:31:20.921457+00:00 [queued]>
+[2025-10-13T08:32:29.447+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-13T08:32:29.458+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): data_generator> on 2025-10-13 08:31:20.921457+00:00
+[2025-10-13T08:32:29.462+0000] {standard_task_runner.py:60} INFO - Started process 1174 to run task
+[2025-10-13T08:32:29.465+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_rotem_dims', 'data_generator', 'manual__2025-10-13T08:31:20.921457+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmpuqxc5r5n']
+[2025-10-13T08:32:29.467+0000] {standard_task_runner.py:88} INFO - Job 42: Subtask data_generator
+[2025-10-13T08:32:29.501+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_rotem_dims.data_generator manual__2025-10-13T08:31:20.921457+00:00 [running]> on host c3efb75b4d2d
+[2025-10-13T08:32:29.558+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_rotem_dims' AIRFLOW_CTX_TASK_ID='data_generator' AIRFLOW_CTX_EXECUTION_DATE='2025-10-13T08:31:20.921457+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-13T08:31:20.921457+00:00'
+[2025-10-13T08:32:29.625+0000] {pyspark_project_dims.py:92} INFO - STDOUT: 
+[2025-10-13T08:32:29.626+0000] {pyspark_project_dims.py:93} INFO - STDERR: 
+[2025-10-13T08:32:29.626+0000] {python.py:202} INFO - Done. Returned value was: 'data_generator.py' Script executed successfully
+[2025-10-13T08:32:29.645+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_rotem_dims, task_id=data_generator, execution_date=20251013T083120, start_date=20251013T083229, end_date=20251013T083229
+[2025-10-13T08:32:29.677+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-13T08:32:29.692+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,45 @@
+[2025-10-09T14:09:19.227+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T14:09:17.234355+00:00 [queued]>
+[2025-10-09T14:09:19.233+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T14:09:17.234355+00:00 [queued]>
+[2025-10-09T14:09:19.233+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-09T14:09:19.243+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): models_and_colors_create> on 2025-10-09 14:09:17.234355+00:00
+[2025-10-09T14:09:19.247+0000] {standard_task_runner.py:60} INFO - Started process 455 to run task
+[2025-10-09T14:09:19.249+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_rotem_dims', 'models_and_colors_create', 'manual__2025-10-09T14:09:17.234355+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmpao1o5c8l']
+[2025-10-09T14:09:19.251+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask models_and_colors_create
+[2025-10-09T14:09:19.287+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_rotem_dims.models_and_colors_create manual__2025-10-09T14:09:17.234355+00:00 [running]> on host 967b7b6b5e5c
+[2025-10-09T14:09:19.343+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_rotem_dims' AIRFLOW_CTX_TASK_ID='models_and_colors_create' AIRFLOW_CTX_EXECUTION_DATE='2025-10-09T14:09:17.234355+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-09T14:09:17.234355+00:00'
+[2025-10-09T14:09:19.452+0000] {logging_mixin.py:188} INFO - Error running 'models_and_colors.py': returncode=127
+[2025-10-09T14:09:19.453+0000] {logging_mixin.py:188} INFO - STDOUT:
+[2025-10-09T14:09:19.453+0000] {logging_mixin.py:188} INFO - STDERR:
+"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Execute a command in a running container
+/bin/sh: 2: -e: Permission denied
+/bin/sh: 3: -e: Permission denied
+[2025-10-09T14:09:19.453+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 39, in models_and_colors_create
+    result = subprocess.run(command ,shell=True, check=True, capture_output=True, text=True)
+  File "/usr/local/lib/python3.8/subprocess.py", line 516, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command 'docker exec
+                    -e AWS_ACCESS_KEY_ID=minioadmin
+                    -e AWS_SECRET_ACCESS_KEY=minioadmin dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py' returned non-zero exit status 127.
+[2025-10-09T14:09:19.464+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pyspark_project_rotem_dims, task_id=models_and_colors_create, execution_date=20251009T140917, start_date=20251009T140919, end_date=20251009T140919
+[2025-10-09T14:09:19.474+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 25 for task models_and_colors_create (Command 'docker exec
+                    -e AWS_ACCESS_KEY_ID=minioadmin
+                    -e AWS_SECRET_ACCESS_KEY=minioadmin dev_env /usr/bin/python3 /home/developer/projects/spark-course-python/spark_course_python/project/dims/models_and_colors.py' returned non-zero exit status 127.; 455)
+[2025-10-09T14:09:19.502+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-10-09T14:09:19.514+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

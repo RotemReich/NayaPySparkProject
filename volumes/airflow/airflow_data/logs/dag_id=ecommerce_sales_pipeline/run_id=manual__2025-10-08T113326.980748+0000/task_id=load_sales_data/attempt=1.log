@@ -1,0 +1,13 @@
+[2025-10-08T11:33:42.780+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ecommerce_sales_pipeline.load_sales_data manual__2025-10-08T11:33:26.980748+00:00 [queued]>
+[2025-10-08T11:33:42.787+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ecommerce_sales_pipeline.load_sales_data manual__2025-10-08T11:33:26.980748+00:00 [queued]>
+[2025-10-08T11:33:42.787+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-08T11:33:42.800+0000] {taskinstance.py:2217} INFO - Executing <Task(PythonOperator): load_sales_data> on 2025-10-08 11:33:26.980748+00:00
+[2025-10-08T11:33:42.806+0000] {standard_task_runner.py:60} INFO - Started process 457 to run task
+[2025-10-08T11:33:42.809+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'ecommerce_sales_pipeline', 'load_sales_data', 'manual__2025-10-08T11:33:26.980748+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/ecommerce_sales_pipeline.py', '--cfg-path', '/tmp/tmpz8f8282j']
+[2025-10-08T11:33:42.810+0000] {standard_task_runner.py:88} INFO - Job 11: Subtask load_sales_data
+[2025-10-08T11:33:42.852+0000] {task_command.py:423} INFO - Running <TaskInstance: ecommerce_sales_pipeline.load_sales_data manual__2025-10-08T11:33:26.980748+00:00 [running]> on host e5af9feb33a9
+[2025-10-08T11:33:42.924+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='ecommerce_sales_pipeline' AIRFLOW_CTX_TASK_ID='load_sales_data' AIRFLOW_CTX_EXECUTION_DATE='2025-10-08T11:33:26.980748+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-08T11:33:26.980748+00:00'
+[2025-10-08T11:33:42.967+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-10-08T11:33:42.975+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=ecommerce_sales_pipeline, task_id=load_sales_data, execution_date=20251008T113326, start_date=20251008T113342, end_date=20251008T113342
+[2025-10-08T11:33:43.021+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-08T11:33:43.033+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
