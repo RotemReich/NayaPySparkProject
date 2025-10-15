@@ -1,0 +1,634 @@
+[2025-10-15T07:41:40.024+0000] {processor.py:161} INFO - Started process (PID=78) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:41:40.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:41:40.029+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.029+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:41:40.323+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:41:40.422+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.422+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:41:40.432+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.432+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:41:40.456+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.437 seconds
+[2025-10-15T07:42:10.520+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:42:10.521+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:42:10.523+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:10.523+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:42:10.626+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:42:10.641+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:10.640+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:42:10.651+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:10.650+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:42:10.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.151 seconds
+[2025-10-15T07:42:40.959+0000] {processor.py:161} INFO - Started process (PID=205) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:42:40.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:42:40.961+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:40.961+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:42:41.068+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:42:41.082+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:41.082+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:42:41.092+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:41.092+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:42:41.112+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.156 seconds
+[2025-10-15T07:43:11.843+0000] {processor.py:161} INFO - Started process (PID=265) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:43:11.844+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:43:11.846+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:11.846+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:43:11.961+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:43:11.975+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:11.975+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:43:11.986+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:11.986+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:43:12.003+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.163 seconds
+[2025-10-15T07:43:42.531+0000] {processor.py:161} INFO - Started process (PID=325) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:43:42.532+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:43:42.534+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:42.534+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:43:42.664+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:43:42.681+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:42.680+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:43:42.696+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:42.695+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:43:42.722+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.193 seconds
+[2025-10-15T07:44:12.999+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:44:13.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:44:13.001+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:13.001+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:44:13.101+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:44:13.117+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:13.117+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:44:13.127+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:13.127+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:44:13.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.147 seconds
+[2025-10-15T07:44:43.224+0000] {processor.py:161} INFO - Started process (PID=446) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:44:43.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:44:43.227+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:43.227+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:44:43.331+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:44:43.349+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:43.349+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:44:43.361+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:43.361+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:44:43.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.170 seconds
+[2025-10-15T07:45:13.578+0000] {processor.py:161} INFO - Started process (PID=507) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:45:13.579+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:45:13.581+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:13.581+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:45:13.687+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:45:13.703+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:13.703+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:45:13.714+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:13.714+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:45:13.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.156 seconds
+[2025-10-15T07:45:44.155+0000] {processor.py:161} INFO - Started process (PID=567) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:45:44.156+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:45:44.158+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:44.157+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:45:44.257+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:45:44.274+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:44.274+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:45:44.285+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:44.285+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:45:44.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.150 seconds
+[2025-10-15T07:46:14.909+0000] {processor.py:161} INFO - Started process (PID=627) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:46:14.910+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:46:14.911+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:14.911+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:46:15.013+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:46:15.028+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:15.028+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:46:15.039+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:15.039+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:46:15.057+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.151 seconds
+[2025-10-15T07:46:45.653+0000] {processor.py:161} INFO - Started process (PID=687) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:46:45.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:46:45.656+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:45.655+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:46:45.757+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:46:45.773+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:45.773+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:46:45.783+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:45.783+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:46:45.800+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.149 seconds
+[2025-10-15T07:47:16.457+0000] {processor.py:161} INFO - Started process (PID=747) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:47:16.459+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:47:16.460+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:16.460+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:47:16.557+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:47:16.574+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:16.573+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:47:16.584+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:16.583+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:47:16.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.146 seconds
+[2025-10-15T07:47:46.689+0000] {processor.py:161} INFO - Started process (PID=807) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:47:46.690+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:47:46.692+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:46.691+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:47:46.790+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:47:46.806+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:46.806+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:47:46.817+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:46.817+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:47:46.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.148 seconds
+[2025-10-15T07:48:17.044+0000] {processor.py:161} INFO - Started process (PID=867) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:17.045+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:48:17.047+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:17.046+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:17.150+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:17.167+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:17.166+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:48:17.177+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:17.177+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:48:17.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.151 seconds
+[2025-10-15T07:48:39.929+0000] {processor.py:161} INFO - Started process (PID=921) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:39.930+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:48:39.931+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:39.931+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:40.044+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:40.061+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:40.060+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:48:40.072+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:40.071+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:48:40.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.168 seconds
+[2025-10-15T07:48:48.493+0000] {processor.py:161} INFO - Started process (PID=933) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:48.494+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:48:48.496+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:48.496+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:48.609+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:48:48.623+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:48.623+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:48:48.634+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:48.634+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:48:48.655+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.164 seconds
+[2025-10-15T07:49:18.837+0000] {processor.py:161} INFO - Started process (PID=994) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:49:18.838+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:49:18.840+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:18.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:49:18.937+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:49:18.953+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:18.953+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:49:18.963+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:18.963+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:49:18.980+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.146 seconds
+[2025-10-15T07:49:49.272+0000] {processor.py:161} INFO - Started process (PID=1054) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:49:49.273+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:49:49.275+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:49.274+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:49:49.373+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:49:49.389+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:49.389+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:49:49.401+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:49.401+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:49:49.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.148 seconds
+[2025-10-15T07:50:19.840+0000] {processor.py:161} INFO - Started process (PID=1110) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:50:19.841+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:50:19.842+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:19.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:50:19.944+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:50:19.960+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:19.960+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:19.972+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:19.972+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:50:19.989+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.153 seconds
+[2025-10-15T07:50:50.724+0000] {processor.py:161} INFO - Started process (PID=1173) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:50:50.725+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:50:50.727+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:50.726+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:50:50.828+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:50:50.844+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:50.844+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:50.855+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:50.854+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:50:50.873+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.152 seconds
+[2025-10-15T07:51:16.625+0000] {processor.py:161} INFO - Started process (PID=1235) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:16.626+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:51:16.627+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:16.627+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:16.736+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:16.751+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:16.751+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:51:16.761+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:16.761+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:51:16.781+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.158 seconds
+[2025-10-15T07:51:46.845+0000] {processor.py:161} INFO - Started process (PID=1295) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:46.846+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:51:46.848+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:46.848+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:46.945+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:46.959+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:46.959+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:51:46.969+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:46.969+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:51:46.984+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.141 seconds
+[2025-10-15T07:51:52.191+0000] {processor.py:161} INFO - Started process (PID=1315) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:52.191+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:51:52.193+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:52.193+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:52.293+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:51:52.372+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:52.372+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:51:52.383+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:52.383+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:51:52.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.305 seconds
+[2025-10-15T07:52:22.571+0000] {processor.py:161} INFO - Started process (PID=1377) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:22.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:52:22.574+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:22.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:22.673+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:22.689+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:22.689+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:52:22.699+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:22.699+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:52:22.717+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.148 seconds
+[2025-10-15T07:52:53.604+0000] {processor.py:161} INFO - Started process (PID=1437) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:53.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:52:53.607+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:53.607+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:53.746+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:53.761+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:53.761+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:52:53.771+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:53.771+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:52:53.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.188 seconds
+[2025-10-15T07:52:55.018+0000] {processor.py:161} INFO - Started process (PID=1444) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:55.019+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:52:55.021+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:55.020+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:55.035+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:55.034+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 143
+    @task
+    ^
+IndentationError: expected an indented block
+[2025-10-15T07:52:55.035+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:52:55.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.038 seconds
+[2025-10-15T07:53:11.594+0000] {processor.py:161} INFO - Started process (PID=1479) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:11.595+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:53:11.597+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:11.596+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:11.708+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:11.724+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:11.724+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:53:11.734+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:11.734+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:53:11.755+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.164 seconds
+[2025-10-15T07:53:28.238+0000] {processor.py:161} INFO - Started process (PID=1524) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:28.239+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:53:28.241+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:28.240+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:28.349+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:28.517+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:28.517+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:53:28.525+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:28.525+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:53:28.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.312 seconds
+[2025-10-15T07:53:29.628+0000] {processor.py:161} INFO - Started process (PID=1531) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:29.629+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:53:29.630+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:29.630+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:29.749+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:29.758+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:29.758+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:53:29.770+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:29.770+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:53:29.789+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.164 seconds
+[2025-10-15T07:53:52.776+0000] {processor.py:161} INFO - Started process (PID=1548) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:52.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:53:52.778+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:52.777+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:52.885+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:53:52.898+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:52.897+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:53:52.911+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:52.911+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:53:52.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.165 seconds
+[2025-10-15T07:54:14.297+0000] {processor.py:161} INFO - Started process (PID=1601) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:54:14.299+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:54:14.300+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:14.300+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:54:14.414+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:54:14.589+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:14.589+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:54:14.598+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:14.598+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:54:14.618+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.324 seconds
+[2025-10-15T07:54:44.697+0000] {processor.py:161} INFO - Started process (PID=1661) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:54:44.698+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:54:44.700+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:44.700+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:54:44.802+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:54:44.911+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:44.911+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:54:44.922+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:44.921+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:54:44.940+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.245 seconds
+[2025-10-15T07:55:15.090+0000] {processor.py:161} INFO - Started process (PID=1721) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:15.091+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:55:15.093+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:15.092+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:15.198+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:15.309+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:15.308+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:55:15.321+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:15.321+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:55:15.340+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.252 seconds
+[2025-10-15T07:55:17.123+0000] {processor.py:161} INFO - Started process (PID=1722) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:17.124+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:55:17.126+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:17.126+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:17.141+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:17.141+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 156
+    wait_task(30) >>
+    ^
+SyntaxError: invalid syntax
+[2025-10-15T07:55:17.142+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:17.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.037 seconds
+[2025-10-15T07:55:22.184+0000] {processor.py:161} INFO - Started process (PID=1723) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:22.185+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:55:22.186+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:22.186+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:22.385+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:22.459+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:22.459+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:55:22.468+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:22.468+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:55:22.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.308 seconds
+[2025-10-15T07:55:37.446+0000] {processor.py:161} INFO - Started process (PID=1777) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:37.447+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:55:37.449+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:37.449+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:37.556+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:37.566+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:37.566+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:55:37.665+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:37.665+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:55:37.685+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.241 seconds
+[2025-10-15T07:55:45.523+0000] {processor.py:161} INFO - Started process (PID=1784) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:45.524+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:55:45.525+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:45.525+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:45.728+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:55:45.737+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:45.737+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:55:45.747+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:45.747+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:55:45.767+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.247 seconds
+[2025-10-15T07:56:07.445+0000] {processor.py:161} INFO - Started process (PID=1836) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:56:07.446+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:56:07.448+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:07.448+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:56:07.582+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:56:07.783+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:07.783+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:56:07.793+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:07.792+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:56:07.813+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.372 seconds
+[2025-10-15T07:56:37.864+0000] {processor.py:161} INFO - Started process (PID=1896) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:56:37.865+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:56:37.868+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:37.867+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:56:37.975+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:56:38.081+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:38.081+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:56:38.091+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:38.090+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:56:38.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.245 seconds
+[2025-10-15T07:57:09.060+0000] {processor.py:161} INFO - Started process (PID=1956) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:09.061+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:57:09.063+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:09.063+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:09.185+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:09.325+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:09.324+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:57:09.336+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:09.335+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:57:09.353+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.296 seconds
+[2025-10-15T07:57:40.261+0000] {processor.py:161} INFO - Started process (PID=2017) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:40.262+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:57:40.263+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:40.263+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:40.363+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:40.481+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:40.481+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:57:40.491+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:40.490+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T07:57:40.506+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.248 seconds
+[2025-10-15T07:57:49.621+0000] {processor.py:161} INFO - Started process (PID=2026) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:49.622+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:57:49.624+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:49.623+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:57:49.735+0000] {logging_mixin.py:188} INFO - >>>Waiting for 30 seconds...
+[2025-10-15T07:58:19.633+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:19.633+0000] {timeout.py:68} ERROR - Process timed out, PID: 2026
+[2025-10-15T07:58:28.957+0000] {processor.py:161} INFO - Started process (PID=2111) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:58:28.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:58:28.960+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:28.960+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:58:28.974+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:28.973+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 139
+    def wait_30_post_data_generator()
+                                    ^
+SyntaxError: invalid syntax
+[2025-10-15T07:58:28.974+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:58:28.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.039 seconds
+[2025-10-15T07:58:37.741+0000] {processor.py:161} INFO - Started process (PID=2137) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:58:37.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:58:37.744+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:37.743+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:58:37.940+0000] {logging_mixin.py:188} INFO - >>>Waiting for 30 seconds...
+[2025-10-15T07:59:07.750+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:07.750+0000] {timeout.py:68} ERROR - Process timed out, PID: 2137
+[2025-10-15T07:59:08.651+0000] {processor.py:161} INFO - Started process (PID=2197) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:59:08.652+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T07:59:08.654+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:08.653+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T07:59:08.857+0000] {logging_mixin.py:188} INFO - >>>Waiting for 30 seconds...
+[2025-10-15T07:59:38.663+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:38.663+0000] {timeout.py:68} ERROR - Process timed out, PID: 2197
+[2025-10-15T08:00:09.428+0000] {processor.py:161} INFO - Started process (PID=2316) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:09.429+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:00:09.430+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.430+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:09.632+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.631+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T08:00:09.635+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.635+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 9092)]>: Broker version identified as 2.6
+[2025-10-15T08:00:09.636+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.636+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T08:00:09.637+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.637+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('sensors-sample',)
+[2025-10-15T08:00:09.638+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.638+0000] {pyspark_project_dims.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 0.007903814315795898 seconds...
+[2025-10-15T08:00:09.641+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.640+0000] {subscription_state.py:254} INFO - Updated partition assignment: [TopicPartition(topic='sensors-sample', partition=0)]
+[2025-10-15T08:00:09.642+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.642+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T08:00:09.643+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.643+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T08:00:09.644+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.644+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Closing connection.
+[2025-10-15T08:00:09.646+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.646+0000] {fetcher.py:418} INFO - Resetting offset for partition TopicPartition(topic='sensors-sample', partition=0) to offset 0.
+[2025-10-15T08:00:09.655+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.655+0000] {pyspark_project_dims.py:116} INFO - ✅ Messages were found on topic sensors-sample!
+[2025-10-15T08:00:09.660+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:09.656+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 166, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 154, in pyspark_project_pipeline
+    models_and_colors_create() >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: 'str' object has no attribute 'update_relative'
+[2025-10-15T08:00:09.661+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:09.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.249 seconds
+[2025-10-15T08:00:13.500+0000] {processor.py:161} INFO - Started process (PID=2324) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:13.501+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:00:13.502+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:13.502+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:13.515+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:13.514+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 145
+    @task
+    ^
+IndentationError: expected an indented block
+[2025-10-15T08:00:13.516+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:13.533+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.036 seconds
+[2025-10-15T08:00:31.244+0000] {processor.py:161} INFO - Started process (PID=2353) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:31.245+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:00:31.246+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:31.245+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:31.467+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:31.460+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 170, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 166, in pyspark_project_pipeline
+    wait_30_post_data_enrichment(30) >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2958, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2025-10-15T08:00:31.468+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:31.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.241 seconds
+[2025-10-15T08:00:37.796+0000] {processor.py:161} INFO - Started process (PID=2378) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:37.797+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:00:37.798+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:37.797+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:38.005+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:37.999+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 174, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 170, in pyspark_project_pipeline
+    wait_30_post_data_enrichment(30) >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2958, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2025-10-15T08:00:38.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:38.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.225 seconds
+[2025-10-15T08:00:47.991+0000] {processor.py:161} INFO - Started process (PID=2388) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:47.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:00:47.993+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:47.993+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:48.201+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:48.196+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 174, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 170, in pyspark_project_pipeline
+    wait_30_post_data_enrichment(30) >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2958, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2025-10-15T08:00:48.202+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:48.214+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.225 seconds
+[2025-10-15T08:00:56.071+0000] {processor.py:161} INFO - Started process (PID=2389) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:56.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:00:56.073+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:56.073+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:56.295+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:56.289+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 174, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 170, in pyspark_project_pipeline
+    wait_30_post_data_enrichment(30) >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2958, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2025-10-15T08:00:56.295+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:00:56.308+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.239 seconds
+[2025-10-15T08:01:01.501+0000] {processor.py:161} INFO - Started process (PID=2416) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:01.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:01:01.503+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:01.503+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:01.711+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:01.705+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 174, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 170, in pyspark_project_pipeline
+    wait_30_post_data_enrichment(30) >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2958, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2025-10-15T08:01:01.712+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:01.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.226 seconds
+[2025-10-15T08:01:03.575+0000] {processor.py:161} INFO - Started process (PID=2418) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:03.577+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:01:03.578+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:03.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:03.777+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:03.772+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/pyspark_project_dims.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 174, in <module>
+    dag = pyspark_project_pipeline()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dag.py", line 3955, in factory
+    f(**f_kwargs)
+  File "/opt/airflow/dags/pyspark_project_dims.py", line 170, in pyspark_project_pipeline
+    wait_30_post_data_enrichment(30) >>
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 366, in __call__
+    op = self.operator_class(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/python.py", line 52, in __init__
+    super().__init__(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 437, in apply_defaults
+    result = func(self, **kwargs, default_args=default_args)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 228, in __init__
+    signature.bind(*op_args, **op_kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 3037, in bind
+    return self._bind(args, kwargs)
+  File "/usr/local/lib/python3.8/inspect.py", line 2958, in _bind
+    raise TypeError('too many positional arguments') from None
+TypeError: too many positional arguments
+[2025-10-15T08:01:03.778+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:03.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.218 seconds
+[2025-10-15T08:01:06.354+0000] {processor.py:161} INFO - Started process (PID=2429) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:06.355+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:01:06.356+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:06.356+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:06.571+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:06.654+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:06.654+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:01:06.663+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:06.663+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:01:06.684+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.333 seconds
+[2025-10-15T08:01:11.224+0000] {processor.py:161} INFO - Started process (PID=2443) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:11.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:01:11.225+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:11.225+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:11.427+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:11.436+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:11.435+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:01:11.445+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:11.445+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:01:11.465+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.245 seconds
+[2025-10-15T08:01:41.510+0000] {processor.py:161} INFO - Started process (PID=2504) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:41.511+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:01:41.512+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:41.512+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:41.703+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:01:41.718+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:41.718+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:01:41.727+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:41.727+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:01:41.743+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.235 seconds
+[2025-10-15T08:02:11.893+0000] {processor.py:161} INFO - Started process (PID=2564) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:11.893+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:02:11.894+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:11.894+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:12.086+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:12.101+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:12.101+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:02:12.111+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:12.111+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:02:12.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.237 seconds
+[2025-10-15T08:02:29.484+0000] {processor.py:161} INFO - Started process (PID=2589) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:29.484+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:02:29.485+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:29.485+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:29.690+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:29.707+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:29.706+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:02:29.716+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:29.716+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:02:29.739+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.258 seconds
+[2025-10-15T08:02:48.838+0000] {processor.py:161} INFO - Started process (PID=2634) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:48.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:02:48.840+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:48.840+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:49.042+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:49.058+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:49.058+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:02:49.067+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:49.067+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:02:49.088+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.252 seconds
+[2025-10-15T08:02:53.139+0000] {processor.py:161} INFO - Started process (PID=2635) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:53.140+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:02:53.141+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:53.141+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:53.373+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:02:53.400+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:53.400+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:02:53.410+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:53.409+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:02:53.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.290 seconds

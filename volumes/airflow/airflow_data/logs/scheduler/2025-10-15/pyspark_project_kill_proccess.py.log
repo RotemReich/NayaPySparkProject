@@ -1,0 +1,368 @@
+[2025-10-15T07:41:40.033+0000] {processor.py:161} INFO - Started process (PID=79) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:41:40.034+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:41:40.035+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.035+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:41:40.070+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:41:40.267+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.267+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:pyspark_project_stop_processes
+[2025-10-15T07:41:40.277+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.277+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:pyspark_project_stop_processes
+[2025-10-15T07:41:40.287+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.286+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:pyspark_project_stop_processes
+[2025-10-15T07:41:40.287+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.287+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:41:40.298+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.298+0000] {dag.py:3069} INFO - Creating ORM DAG for pyspark_project_stop_processes
+[2025-10-15T07:41:40.299+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:41:40.299+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:41:40.319+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.290 seconds
+[2025-10-15T07:42:10.525+0000] {processor.py:161} INFO - Started process (PID=146) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:42:10.526+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:42:10.528+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:10.528+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:42:10.541+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:42:10.558+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:10.558+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:42:10.570+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:10.570+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:42:10.587+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.065 seconds
+[2025-10-15T07:42:40.965+0000] {processor.py:161} INFO - Started process (PID=206) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:42:40.966+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:42:40.968+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:40.967+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:42:40.980+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:42:40.996+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:40.996+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:42:41.007+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:42:41.007+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:42:41.025+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.062 seconds
+[2025-10-15T07:43:11.849+0000] {processor.py:161} INFO - Started process (PID=266) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:43:11.850+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:43:11.852+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:11.852+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:43:11.868+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:43:11.890+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:11.890+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:43:11.902+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:11.902+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:43:11.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.074 seconds
+[2025-10-15T07:43:42.538+0000] {processor.py:161} INFO - Started process (PID=326) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:43:42.539+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:43:42.541+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:42.540+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:43:42.555+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:43:42.573+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:42.573+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:43:42.585+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:43:42.585+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:43:42.611+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.076 seconds
+[2025-10-15T07:44:13.003+0000] {processor.py:161} INFO - Started process (PID=386) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:13.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:44:13.005+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:13.005+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:13.018+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:13.034+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:13.033+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:44:13.044+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:13.044+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:44:13.062+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.061 seconds
+[2025-10-15T07:44:43.127+0000] {processor.py:161} INFO - Started process (PID=445) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:43.128+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:44:43.129+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:43.129+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:43.145+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:43.162+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:43.162+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:44:43.173+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:43.173+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:44:43.193+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.069 seconds
+[2025-10-15T07:44:47.912+0000] {processor.py:161} INFO - Started process (PID=489) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:47.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:44:47.914+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:47.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:47.935+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:48.019+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:48.019+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:44:48.029+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:48.028+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:44:48.053+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.144 seconds
+[2025-10-15T07:44:49.094+0000] {processor.py:161} INFO - Started process (PID=492) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:49.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:44:49.096+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:49.096+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:49.118+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:44:49.127+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:49.127+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:44:49.139+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:44:49.139+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:44:49.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.072 seconds
+[2025-10-15T07:45:19.197+0000] {processor.py:161} INFO - Started process (PID=552) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:45:19.198+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:45:19.199+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:19.199+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:45:19.215+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:45:19.231+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:19.231+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:45:19.242+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:19.242+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:45:19.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.066 seconds
+[2025-10-15T07:45:49.466+0000] {processor.py:161} INFO - Started process (PID=612) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:45:49.467+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:45:49.468+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:49.468+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:45:49.480+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:45:49.496+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:49.495+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:45:49.508+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:45:49.507+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:45:49.526+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.063 seconds
+[2025-10-15T07:46:20.210+0000] {processor.py:161} INFO - Started process (PID=672) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:46:20.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:46:20.213+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:20.213+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:46:20.226+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:46:20.241+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:20.240+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:46:20.252+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:20.252+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:46:20.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.062 seconds
+[2025-10-15T07:46:50.914+0000] {processor.py:161} INFO - Started process (PID=732) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:46:50.915+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:46:50.916+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:50.916+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:46:50.928+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:46:50.944+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:50.944+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:46:50.955+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:46:50.955+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:46:50.975+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:47:21.926+0000] {processor.py:161} INFO - Started process (PID=792) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:47:21.927+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:47:21.928+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:21.928+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:47:21.940+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:47:21.956+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:21.956+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:47:21.967+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:21.967+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:47:21.985+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.062 seconds
+[2025-10-15T07:47:52.260+0000] {processor.py:161} INFO - Started process (PID=852) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:47:52.261+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:47:52.263+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:52.263+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:47:52.277+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:47:52.293+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:52.293+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:47:52.304+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:47:52.304+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:47:52.324+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.067 seconds
+[2025-10-15T07:48:22.436+0000] {processor.py:161} INFO - Started process (PID=912) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:48:22.437+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:48:22.439+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:22.438+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:48:22.452+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:48:22.471+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:22.470+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:48:22.485+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:22.485+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:48:22.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.078 seconds
+[2025-10-15T07:48:52.720+0000] {processor.py:161} INFO - Started process (PID=973) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:48:52.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:48:52.723+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:52.723+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:48:52.737+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:48:52.753+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:52.753+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:48:52.765+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:48:52.764+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:48:52.783+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.065 seconds
+[2025-10-15T07:49:23.452+0000] {processor.py:161} INFO - Started process (PID=1034) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:49:23.453+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:49:23.454+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:23.454+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:49:23.467+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:49:23.482+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:23.482+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:49:23.493+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:23.493+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:49:23.511+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.062 seconds
+[2025-10-15T07:49:54.339+0000] {processor.py:161} INFO - Started process (PID=1094) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:49:54.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:49:54.342+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:54.342+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:49:54.355+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:49:54.370+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:54.370+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:49:54.381+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:49:54.381+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:49:54.400+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.065 seconds
+[2025-10-15T07:50:05.693+0000] {processor.py:161} INFO - Started process (PID=1103) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:05.694+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:05.695+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:05.695+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:05.717+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:05.734+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:05.734+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:05.744+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:05.744+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:05.766+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.075 seconds
+[2025-10-15T07:50:36.399+0000] {processor.py:161} INFO - Started process (PID=1163) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:36.400+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:36.402+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:36.402+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:36.419+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:36.435+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:36.435+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:36.446+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:36.446+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:36.464+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.067 seconds
+[2025-10-15T07:50:43.555+0000] {processor.py:161} INFO - Started process (PID=1170) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:43.556+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:43.558+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:43.558+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:43.587+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:43.604+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:43.604+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:43.616+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:43.615+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:43.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.091 seconds
+[2025-10-15T07:50:45.577+0000] {processor.py:161} INFO - Started process (PID=1171) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:45.578+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:45.580+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:45.579+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:45.605+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:45.621+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:45.620+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:45.631+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:45.631+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:45.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.078 seconds
+[2025-10-15T07:50:47.614+0000] {processor.py:161} INFO - Started process (PID=1172) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:47.615+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:47.616+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:47.616+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:47.638+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:47.654+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:47.654+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:47.665+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:47.665+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:47.687+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.076 seconds
+[2025-10-15T07:50:57.290+0000] {processor.py:161} INFO - Started process (PID=1224) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:57.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:57.293+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:57.293+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:57.321+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:57.337+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:57.336+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:57.347+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:57.347+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:57.369+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.081 seconds
+[2025-10-15T07:50:59.385+0000] {processor.py:161} INFO - Started process (PID=1225) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:59.386+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:50:59.388+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:59.387+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:59.408+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:50:59.423+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:59.423+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:50:59.434+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:50:59.434+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:50:59.455+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.073 seconds
+[2025-10-15T07:51:12.583+0000] {processor.py:161} INFO - Started process (PID=1234) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:12.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:51:12.587+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:12.586+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:12.608+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:12.625+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:12.625+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:51:12.636+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:12.635+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:51:12.657+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.077 seconds
+[2025-10-15T07:51:42.768+0000] {processor.py:161} INFO - Started process (PID=1294) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:42.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:51:42.770+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:42.770+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:42.787+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:42.802+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:42.802+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:51:42.813+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:42.813+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:51:42.830+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:51:55.798+0000] {processor.py:161} INFO - Started process (PID=1339) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:55.799+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:51:55.801+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:55.800+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:55.821+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:51:55.839+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:55.838+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:51:55.850+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:51:55.850+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:51:55.872+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.077 seconds
+[2025-10-15T07:52:00.125+0000] {processor.py:161} INFO - Started process (PID=1348) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:00.126+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:52:00.127+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:00.127+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:00.147+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:00.227+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:00.227+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:52:00.238+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:00.238+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:52:00.260+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.138 seconds
+[2025-10-15T07:52:03.315+0000] {processor.py:161} INFO - Started process (PID=1351) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:03.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:52:03.318+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:03.318+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:03.341+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:03.351+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:03.351+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:52:03.363+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:03.363+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:52:03.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.071 seconds
+[2025-10-15T07:52:33.425+0000] {processor.py:161} INFO - Started process (PID=1410) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:33.426+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:52:33.428+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:33.428+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:33.442+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:52:33.459+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:33.458+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:52:33.469+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:52:33.469+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:52:33.487+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:53:04.431+0000] {processor.py:161} INFO - Started process (PID=1470) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:53:04.432+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:53:04.433+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:04.433+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:53:04.448+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:53:04.464+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:04.464+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:53:04.475+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:04.475+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:53:04.494+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.066 seconds
+[2025-10-15T07:53:34.704+0000] {processor.py:161} INFO - Started process (PID=1532) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:53:34.704+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:53:34.706+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:34.706+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:53:34.720+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:53:34.737+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:34.737+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:53:34.750+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:53:34.749+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:53:34.772+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.071 seconds
+[2025-10-15T07:54:05.146+0000] {processor.py:161} INFO - Started process (PID=1592) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:54:05.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:54:05.149+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:05.149+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:54:05.163+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:54:05.179+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:05.179+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:54:05.191+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:05.191+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:54:05.210+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.066 seconds
+[2025-10-15T07:54:35.255+0000] {processor.py:161} INFO - Started process (PID=1652) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:54:35.256+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:54:35.258+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:35.257+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:54:35.273+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:54:35.289+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:35.288+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:54:35.301+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:54:35.300+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:54:35.327+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.075 seconds
+[2025-10-15T07:55:05.669+0000] {processor.py:161} INFO - Started process (PID=1712) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:55:05.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:55:05.672+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:05.672+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:55:05.689+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:55:05.707+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:05.707+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:55:05.719+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:05.719+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:55:05.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.074 seconds
+[2025-10-15T07:55:35.990+0000] {processor.py:161} INFO - Started process (PID=1774) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:55:35.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:55:35.993+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:35.992+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:55:36.007+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:55:36.023+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:36.022+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:55:36.034+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:55:36.033+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:55:36.050+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.062 seconds
+[2025-10-15T07:56:06.405+0000] {processor.py:161} INFO - Started process (PID=1835) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:56:06.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:56:06.407+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:06.407+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:56:06.419+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:56:06.435+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:06.435+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:56:06.447+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:06.447+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:56:06.463+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.061 seconds
+[2025-10-15T07:56:36.764+0000] {processor.py:161} INFO - Started process (PID=1895) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:56:36.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:56:36.766+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:36.766+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:56:36.781+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:56:36.796+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:36.796+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:56:36.807+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:56:36.807+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:56:36.825+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:57:07.003+0000] {processor.py:161} INFO - Started process (PID=1955) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:57:07.004+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:57:07.006+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:07.006+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:57:07.022+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:57:07.037+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:07.037+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:57:07.048+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:07.048+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:57:07.065+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:57:37.216+0000] {processor.py:161} INFO - Started process (PID=2016) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:57:37.217+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:57:37.219+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:37.219+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:57:37.232+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:57:37.248+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:37.247+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:57:37.258+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:57:37.258+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:57:37.276+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.062 seconds
+[2025-10-15T07:58:08.092+0000] {processor.py:161} INFO - Started process (PID=2077) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:58:08.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:58:08.095+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:08.095+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:58:08.111+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:58:08.125+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:08.125+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:58:08.136+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:08.136+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:58:08.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:58:38.753+0000] {processor.py:161} INFO - Started process (PID=2138) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:58:38.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:58:38.756+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:38.755+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:58:38.770+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:58:38.785+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:38.785+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:58:38.795+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:58:38.795+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:58:38.812+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.061 seconds
+[2025-10-15T07:59:09.665+0000] {processor.py:161} INFO - Started process (PID=2198) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:59:09.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:59:09.668+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:09.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:59:09.683+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:59:09.699+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:09.699+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:59:09.709+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:09.709+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:59:09.726+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.064 seconds
+[2025-10-15T07:59:39.839+0000] {processor.py:161} INFO - Started process (PID=2257) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:59:39.840+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T07:59:39.842+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:39.842+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:59:39.857+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T07:59:39.873+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:39.873+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T07:59:39.884+0000] {logging_mixin.py:188} INFO - [2025-10-15T07:59:39.884+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T07:59:39.902+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.065 seconds
+[2025-10-15T08:00:10.457+0000] {processor.py:161} INFO - Started process (PID=2317) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:00:10.457+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T08:00:10.458+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:10.458+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:00:10.476+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:00:10.492+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:10.492+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:00:10.503+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:10.502+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T08:00:10.519+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.066 seconds
+[2025-10-15T08:00:40.834+0000] {processor.py:161} INFO - Started process (PID=2379) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:00:40.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T08:00:40.836+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:40.835+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:00:40.850+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:00:40.867+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:40.866+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:00:40.878+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:00:40.878+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T08:00:40.897+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.066 seconds
+[2025-10-15T08:01:11.229+0000] {processor.py:161} INFO - Started process (PID=2444) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:01:11.230+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T08:01:11.230+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:11.230+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:01:11.243+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:01:11.259+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:11.258+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:01:11.270+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:11.270+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T08:01:11.287+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.061 seconds
+[2025-10-15T08:01:41.415+0000] {processor.py:161} INFO - Started process (PID=2503) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:01:41.416+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T08:01:41.417+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:41.417+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:01:41.433+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:01:41.450+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:41.449+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:01:41.461+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:01:41.461+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T08:01:41.479+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.067 seconds
+[2025-10-15T08:02:11.775+0000] {processor.py:161} INFO - Started process (PID=2563) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:02:11.776+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T08:02:11.777+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:11.777+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:02:11.795+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:02:11.811+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:11.811+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:02:11.823+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:11.822+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T08:02:11.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.086 seconds
+[2025-10-15T08:02:19.547+0000] {processor.py:161} INFO - Started process (PID=2574) to work on /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:02:19.548+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_kill_proccess.py for tasks to queue
+[2025-10-15T08:02:19.549+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:19.548+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:02:19.571+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_stop_processes' retrieved from /opt/airflow/dags/pyspark_project_kill_proccess.py
+[2025-10-15T08:02:19.587+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:19.587+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:02:19.599+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:19.599+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_stop_processes to None, run_after=None
+[2025-10-15T08:02:19.620+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_kill_proccess.py took 0.076 seconds

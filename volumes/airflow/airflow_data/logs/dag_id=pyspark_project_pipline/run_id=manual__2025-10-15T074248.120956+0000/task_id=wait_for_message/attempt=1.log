@@ -1,0 +1,40 @@
+[2025-10-15T07:43:30.026+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipline.wait_for_message manual__2025-10-15T07:42:48.120956+00:00 [queued]>
+[2025-10-15T07:43:30.032+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipline.wait_for_message manual__2025-10-15T07:42:48.120956+00:00 [queued]>
+[2025-10-15T07:43:30.033+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-15T07:43:30.400+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): wait_for_message> on 2025-10-15 07:42:48.120956+00:00
+[2025-10-15T07:43:30.404+0000] {standard_task_runner.py:60} INFO - Started process 161 to run task
+[2025-10-15T07:43:30.406+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipline', 'wait_for_message', 'manual__2025-10-15T07:42:48.120956+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_dims.py', '--cfg-path', '/tmp/tmp9hg013wf']
+[2025-10-15T07:43:30.414+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask wait_for_message
+[2025-10-15T07:43:30.953+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipline.wait_for_message manual__2025-10-15T07:42:48.120956+00:00 [running]> on host b62b1f4a1930
+[2025-10-15T07:43:31.739+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipline' AIRFLOW_CTX_TASK_ID='wait_for_message' AIRFLOW_CTX_EXECUTION_DATE='2025-10-15T07:42:48.120956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-15T07:42:48.120956+00:00'
+[2025-10-15T07:43:31.743+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T07:43:31.747+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 9092)]>: Broker version identified as 2.6
+[2025-10-15T07:43:31.747+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T07:43:31.749+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('sensors-sample',)
+[2025-10-15T07:43:31.749+0000] {pyspark_project_dims.py:111} INFO - Trying to find messages in kafka topic sensors-sample after 0.00852203369140625 seconds...
+[2025-10-15T07:43:31.752+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T07:43:31.752+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T07:43:31.753+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Closing connection. 
+[2025-10-15T07:43:39.858+0000] {cluster.py:401} INFO - Coordinator for group/***-wait-group is ('coordinator-1001', 'course-kafka', 9092, None)
+[2025-10-15T07:43:39.859+0000] {base.py:788} INFO - Discovered coordinator coordinator-1001 for group ***-wait-group
+[2025-10-15T07:43:39.860+0000] {base.py:848} INFO - Starting new heartbeat thread
+[2025-10-15T07:43:39.860+0000] {consumer.py:365} INFO - Revoking previously assigned partitions () for group ***-wait-group
+[2025-10-15T07:43:39.861+0000] {base.py:419} INFO - Failed to join group ***-wait-group: NodeNotReadyError: coordinator-1001
+[2025-10-15T07:43:39.862+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T07:43:39.863+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=coordinator-1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T07:43:39.964+0000] {base.py:532} INFO - (Re-)joining group ***-wait-group
+[2025-10-15T07:43:39.977+0000] {base.py:637} INFO - Received member id kafka-python-2.2.15-e675a004-3182-473a-ac69-4bd0887d2ee3 for group ***-wait-group; will retry join-group
+[2025-10-15T07:43:39.978+0000] {base.py:419} INFO - Failed to join group ***-wait-group: [Error 79] MemberIdRequiredError
+[2025-10-15T07:43:39.979+0000] {base.py:532} INFO - (Re-)joining group ***-wait-group
+[2025-10-15T07:43:39.996+0000] {base.py:594} INFO - Successfully joined group ***-wait-group <Generation 1 (member_id: kafka-python-2.2.15-e675a004-3182-473a-ac69-4bd0887d2ee3, protocol: range)>
+[2025-10-15T07:43:39.997+0000] {base.py:596} INFO - Elected group leader -- performing partition assignments using range
+[2025-10-15T07:43:40.055+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('sensors-sample', 0)]
+[2025-10-15T07:43:40.056+0000] {consumer.py:249} INFO - Setting newly assigned partitions (('sensors-sample', 0),) for group ***-wait-group
+[2025-10-15T07:43:40.062+0000] {fetcher.py:418} INFO - Resetting offset for partition ('sensors-sample', 0) to offset 0.
+[2025-10-15T07:43:51.751+0000] {pyspark_project_dims.py:111} INFO - Trying to find messages in kafka topic sensors-sample after 20.010677814483643 seconds...
+[2025-10-15T07:43:51.759+0000] {pyspark_project_dims.py:118} INFO - ✅ Messages were found on topic sensors-sample!
+[2025-10-15T07:43:51.759+0000] {base.py:1052} INFO - Stopping heartbeat thread
+[2025-10-15T07:43:51.760+0000] {python.py:202} INFO - Done. Returned value was: messages were found!
+[2025-10-15T07:43:51.778+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_pipline, task_id=wait_for_message, execution_date=20251015T074248, start_date=20251015T074330, end_date=20251015T074351
+[2025-10-15T07:43:51.832+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-15T07:43:51.843+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
