@@ -1,0 +1,24 @@
+[2025-10-18T12:11:38.947+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_for_message_alerts manual__2025-10-18T12:08:11.511950+00:00 [queued]>
+[2025-10-18T12:11:38.955+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_for_message_alerts manual__2025-10-18T12:08:11.511950+00:00 [queued]>
+[2025-10-18T12:11:38.956+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-18T12:11:38.969+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): wait_for_message_alerts> on 2025-10-18 12:08:11.511950+00:00
+[2025-10-18T12:11:38.974+0000] {standard_task_runner.py:60} INFO - Started process 563 to run task
+[2025-10-18T12:11:38.977+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipeline', 'wait_for_message_alerts', 'manual__2025-10-18T12:08:11.511950+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_pipeline.py', '--cfg-path', '/tmp/tmp2xseh1do']
+[2025-10-18T12:11:38.979+0000] {standard_task_runner.py:88} INFO - Job 32: Subtask wait_for_message_alerts
+[2025-10-18T12:11:39.018+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipeline.wait_for_message_alerts manual__2025-10-18T12:08:11.511950+00:00 [running]> on host d8787cd43caa
+[2025-10-18T12:11:39.090+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_message_alerts' AIRFLOW_CTX_EXECUTION_DATE='2025-10-18T12:08:11.511950+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-18T12:08:11.511950+00:00'
+[2025-10-18T12:11:39.094+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to course-kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-10-18T12:11:39.097+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.9', 9092)]>: Broker version identified as 2.6
+[2025-10-18T12:11:39.097+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-10-18T12:11:39.099+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('alert-data',)
+[2025-10-18T12:11:39.099+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic alert-data after 0 seconds...
+[2025-10-18T12:11:39.101+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('alert-data', 0)]
+[2025-10-18T12:11:39.103+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.9', 9092)]>: connecting to course-kafka:9092 [('172.18.0.9', 9092) IPv4]
+[2025-10-18T12:11:39.104+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Connection complete.
+[2025-10-18T12:11:39.104+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.9', 9092)]>: Closing connection. 
+[2025-10-18T12:11:39.105+0000] {fetcher.py:418} INFO - Resetting offset for partition ('alert-data', 0) to offset 0.
+[2025-10-18T12:11:39.114+0000] {pyspark_project_pipeline.py:116} INFO - ✅ Messages were found on topic alert-data!
+[2025-10-18T12:11:39.115+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-10-18T12:11:39.122+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_pipeline, task_id=wait_for_message_alerts, execution_date=20251018T120811, start_date=20251018T121138, end_date=20251018T121139
+[2025-10-18T12:11:39.149+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-18T12:11:39.163+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

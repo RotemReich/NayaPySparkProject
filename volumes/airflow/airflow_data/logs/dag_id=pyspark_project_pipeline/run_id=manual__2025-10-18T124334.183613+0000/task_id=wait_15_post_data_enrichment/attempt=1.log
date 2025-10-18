@@ -1,0 +1,15 @@
+[2025-10-18T12:46:47.827+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_15_post_data_enrichment manual__2025-10-18T12:43:34.183613+00:00 [queued]>
+[2025-10-18T12:46:47.845+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_15_post_data_enrichment manual__2025-10-18T12:43:34.183613+00:00 [queued]>
+[2025-10-18T12:46:47.846+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-18T12:46:47.869+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): wait_15_post_data_enrichment> on 2025-10-18 12:43:34.183613+00:00
+[2025-10-18T12:46:47.881+0000] {standard_task_runner.py:60} INFO - Started process 311 to run task
+[2025-10-18T12:46:47.884+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipeline', 'wait_15_post_data_enrichment', 'manual__2025-10-18T12:43:34.183613+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_pipeline.py', '--cfg-path', '/tmp/tmp_mnl3j4o']
+[2025-10-18T12:46:47.887+0000] {standard_task_runner.py:88} INFO - Job 43: Subtask wait_15_post_data_enrichment
+[2025-10-18T12:46:47.947+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipeline.wait_15_post_data_enrichment manual__2025-10-18T12:43:34.183613+00:00 [running]> on host c7483b6b2675
+[2025-10-18T12:46:48.025+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipeline' AIRFLOW_CTX_TASK_ID='wait_15_post_data_enrichment' AIRFLOW_CTX_EXECUTION_DATE='2025-10-18T12:43:34.183613+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-18T12:43:34.183613+00:00'
+[2025-10-18T12:46:48.027+0000] {logging_mixin.py:188} INFO - >>>Waiting for 15 seconds...
+[2025-10-18T12:47:03.030+0000] {logging_mixin.py:188} INFO - >>>15 seconds are over!
+[2025-10-18T12:47:03.030+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-10-18T12:47:03.038+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_pipeline, task_id=wait_15_post_data_enrichment, execution_date=20251018T124334, start_date=20251018T124647, end_date=20251018T124703
+[2025-10-18T12:47:03.056+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-18T12:47:03.077+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

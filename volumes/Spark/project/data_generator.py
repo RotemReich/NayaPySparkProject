@@ -36,7 +36,6 @@ producer = KafkaProducer(
 
 #see if topic exists
 admin_client = KafkaAdminClient(bootstrap_servers=[course_broker])
-#new_topic = NewTopic(name=my_Topic, num_partitions=1, replication_factor=1)
 existing_topics = admin_client.list_topics()
 
 if my_Topic in existing_topics:
@@ -48,7 +47,7 @@ if my_Topic in existing_topics:
         T.StructField("speed", T.IntegerType()),
         T.StructField("rpm", T.IntegerType()),
         T.StructField("gear", T.IntegerType())
-    ])    
+    ])
     raw_data_df = (
         spark
         .read
@@ -91,12 +90,17 @@ while True:
         #.show(20)
     )
     
-    for json_str in data_gen_df.toJSON().collect():
-        producer.send(topic=my_Topic, value=json_str)
-    
-    producer.flush()
+    cars_producer = (
+        data_gen_df
+        .selectExpr("to_json(struct(*)) AS value")
+        .write
+        .format("kafka")
+        .option("kafka.bootstrap.servers", course_broker)
+        .option("topic", my_Topic)
+        .save()
+    )
     rn += 20
-    time.sleep(10)
+    time.sleep(1)
 
-cars_df.unpersist()
-spark.stop()
+# cars_df.unpersist()
+# spark.stop()

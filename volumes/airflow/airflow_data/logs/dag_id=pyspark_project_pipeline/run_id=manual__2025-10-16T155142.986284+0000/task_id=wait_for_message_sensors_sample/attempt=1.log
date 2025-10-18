@@ -1,0 +1,46 @@
+[2025-10-16T15:53:24.260+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_for_message_sensors_sample manual__2025-10-16T15:51:42.986284+00:00 [queued]>
+[2025-10-16T15:53:24.277+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_for_message_sensors_sample manual__2025-10-16T15:51:42.986284+00:00 [queued]>
+[2025-10-16T15:53:24.280+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-16T15:53:24.293+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): wait_for_message_sensors_sample> on 2025-10-16 15:51:42.986284+00:00
+[2025-10-16T15:53:24.300+0000] {standard_task_runner.py:60} INFO - Started process 391 to run task
+[2025-10-16T15:53:24.303+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipeline', 'wait_for_message_sensors_sample', 'manual__2025-10-16T15:51:42.986284+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_pipeline.py', '--cfg-path', '/tmp/tmpi27kp4a7']
+[2025-10-16T15:53:24.305+0000] {standard_task_runner.py:88} INFO - Job 95: Subtask wait_for_message_sensors_sample
+[2025-10-16T15:53:24.343+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipeline.wait_for_message_sensors_sample manual__2025-10-16T15:51:42.986284+00:00 [running]> on host 370ee0675794
+[2025-10-16T15:53:24.401+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_message_sensors_sample' AIRFLOW_CTX_EXECUTION_DATE='2025-10-16T15:51:42.986284+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-16T15:51:42.986284+00:00'
+[2025-10-16T15:53:24.404+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-16T15:53:24.408+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 9092)]>: Broker version identified as 2.6
+[2025-10-16T15:53:24.408+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-16T15:53:24.410+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('sensors-sample',)
+[2025-10-16T15:53:24.410+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 0 seconds...
+[2025-10-16T15:53:24.412+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('sensors-sample', 0)]
+[2025-10-16T15:53:24.413+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-16T15:53:24.414+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-16T15:53:24.414+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Closing connection. 
+[2025-10-16T15:53:24.416+0000] {fetcher.py:418} INFO - Resetting offset for partition ('sensors-sample', 0) to offset 0.
+[2025-10-16T15:53:44.418+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 20 seconds...
+[2025-10-16T15:54:04.420+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 40 seconds...
+[2025-10-16T15:54:24.429+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 60 seconds...
+[2025-10-16T15:54:44.437+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 80 seconds...
+[2025-10-16T15:55:04.445+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic sensors-sample after 100 seconds...
+[2025-10-16T15:55:04.446+0000] {pyspark_project_pipeline.py:111} ERROR - ❌No message recieved on topic sensors-sample after 90 seconds.
+[2025-10-16T15:55:04.446+0000] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/decorators/base.py", line 241, in execute
+    return_value = super().execute(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 200, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 217, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/pyspark_project_pipeline.py", line 143, in wait_for_message_sensors_sample
+    wait_for_message("sensors-sample")
+  File "/opt/airflow/dags/pyspark_project_pipeline.py", line 112, in wait_for_message
+    raise TimeoutError(f"❌No message recieved on topic {topic} after {max_timeout_seconds} seconds.")
+TimeoutError: ❌No message recieved on topic sensors-sample after 90 seconds.
+[2025-10-16T15:55:04.457+0000] {taskinstance.py:1149} INFO - Marking task as FAILED. dag_id=pyspark_project_pipeline, task_id=wait_for_message_sensors_sample, execution_date=20251016T155142, start_date=20251016T155324, end_date=20251016T155504
+[2025-10-16T15:55:04.469+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 95 for task wait_for_message_sensors_sample (❌No message recieved on topic sensors-sample after 90 seconds.; 391)
+[2025-10-16T15:55:04.506+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-10-16T15:55:04.517+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

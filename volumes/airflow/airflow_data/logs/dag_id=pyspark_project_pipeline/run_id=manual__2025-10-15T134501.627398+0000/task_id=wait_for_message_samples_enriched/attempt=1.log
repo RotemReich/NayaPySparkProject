@@ -1,0 +1,24 @@
+[2025-10-15T13:47:16.504+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_for_message_samples_enriched manual__2025-10-15T13:45:01.627398+00:00 [queued]>
+[2025-10-15T13:47:16.514+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipeline.wait_for_message_samples_enriched manual__2025-10-15T13:45:01.627398+00:00 [queued]>
+[2025-10-15T13:47:16.515+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-15T13:47:16.532+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): wait_for_message_samples_enriched> on 2025-10-15 13:45:01.627398+00:00
+[2025-10-15T13:47:16.542+0000] {standard_task_runner.py:60} INFO - Started process 264 to run task
+[2025-10-15T13:47:16.545+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipeline', 'wait_for_message_samples_enriched', 'manual__2025-10-15T13:45:01.627398+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_pipeline.py', '--cfg-path', '/tmp/tmp0g3jxa0h']
+[2025-10-15T13:47:16.547+0000] {standard_task_runner.py:88} INFO - Job 84: Subtask wait_for_message_samples_enriched
+[2025-10-15T13:47:16.590+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipeline.wait_for_message_samples_enriched manual__2025-10-15T13:45:01.627398+00:00 [running]> on host 78a5fc0ea0cd
+[2025-10-15T13:47:16.656+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipeline' AIRFLOW_CTX_TASK_ID='wait_for_message_samples_enriched' AIRFLOW_CTX_EXECUTION_DATE='2025-10-15T13:45:01.627398+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-15T13:45:01.627398+00:00'
+[2025-10-15T13:47:16.660+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T13:47:16.664+0000] {conn.py:618} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <checking_api_versions_recv> [IPv4 ('172.18.0.8', 9092)]>: Broker version identified as 2.6
+[2025-10-15T13:47:16.665+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T13:47:16.666+0000] {subscription_state.py:181} INFO - Updating subscribed topics to: ('samples-enriched',)
+[2025-10-15T13:47:16.667+0000] {pyspark_project_pipeline.py:109} INFO - Trying to find messages in kafka topic samples-enriched after 0 seconds...
+[2025-10-15T13:47:16.668+0000] {subscription_state.py:254} INFO - Updated partition assignment: [('samples-enriched', 0)]
+[2025-10-15T13:47:16.669+0000] {conn.py:396} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connecting> [IPv4 ('172.18.0.8', 9092)]>: connecting to course-kafka:9092 [('172.18.0.8', 9092) IPv4]
+[2025-10-15T13:47:16.670+0000] {conn.py:457} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=1001 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Connection complete.
+[2025-10-15T13:47:16.671+0000] {conn.py:945} INFO - <BrokerConnection client_id=kafka-python-2.2.15, node_id=bootstrap-0 host=course-kafka:9092 <connected> [IPv4 ('172.18.0.8', 9092)]>: Closing connection. 
+[2025-10-15T13:47:16.673+0000] {fetcher.py:418} INFO - Resetting offset for partition ('samples-enriched', 0) to offset 0.
+[2025-10-15T13:47:16.685+0000] {pyspark_project_pipeline.py:116} INFO - ✅ Messages were found on topic samples-enriched!
+[2025-10-15T13:47:16.686+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-10-15T13:47:16.694+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_pipeline, task_id=wait_for_message_samples_enriched, execution_date=20251015T134501, start_date=20251015T134716, end_date=20251015T134716
+[2025-10-15T13:47:16.717+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-15T13:47:16.735+0000] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

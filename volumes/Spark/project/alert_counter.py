@@ -12,7 +12,8 @@ spark = (
     .config("spark.jars.packages", "org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2")
     .getOrCreate()
 )
-#spark.conf.set("spark.sql.streaming.statefulOperator.checkCorrectness.enabled", "false")
+spark.conf.set("spark.sql.adaptive.enabled", "false")
+spark.conf.set("spark.sql.streaming.statefulOperator.checkCorrectness.enabled", "false")
 
 course_broker = "course-kafka:9092"
 topic_input = "alert-data"
@@ -49,10 +50,41 @@ raw_data_df =  (
 
 window_dur = "15 minutes"
 
+# aggregated_alerts_windowed_df = (
+#     raw_data_df
+#     .withWatermark("event_time", window_dur)
+#     .groupBy(window(timeColumn="event_time", windowDuration=window_dur, slideDuration="1 second").alias("window"))
+#     .agg(
+#         F.count(F.lit(1)).alias("num_of_rows"),
+#         F.sum(F.when(F.col("color_name")=="Black", 1).otherwise(0)).alias("num_of_black"),
+#         F.sum(F.when(F.col("color_name")=="White", 1).otherwise(0)).alias("num_of_white"),
+#         F.sum(F.when(F.col("color_name")=="Silver",1).otherwise(0)).alias("num_of_silver"),
+#         F.max(F.col("speed")).alias("maximum_speed"),
+#         F.max(F.col("gear")).alias("maximum_gear"),
+#         F.max(F.col("rpm")).alias("maximum_rpm")
+#         )
+#     .withColumn("current_time_date", F.date_format(F.expr(f"current_timestamp()"), "dd/MM/yyyy HH:mm:ss"))
+#     .withColumn("window_end", F.date_format(F.col("window.end"), "dd/MM/yyyy HH:mm:ss"))
+#     #.where(F.col("current_time_date") == F.col("window_end"))
+#     .select(
+#         #F.col("current_time_date"),
+#         F.date_format(F.col("window.start"), "dd/MM/yyyy HH:mm:ss").alias("window_start"),
+#         F.col("window_end"),
+#         F.col("num_of_rows").cast(T.IntegerType()).alias("num_of_rows"),
+#         F.col("num_of_black").cast(T.IntegerType()).alias("num_of_black"),
+#         F.col("num_of_white").cast(T.IntegerType()).alias("num_of_white"),
+#         F.col("num_of_silver").cast(T.IntegerType()).alias("num_of_silver"),
+#         F.col("maximum_speed").cast(T.IntegerType()).alias("maximum_speed"),
+#         F.col("maximum_gear").cast(T.IntegerType()).alias("maximum_gear"),
+#         F.col("maximum_rpm").cast(T.IntegerType()).alias("maximum_rpm")
+#     )
+# )
+
 aggregated_alerts_windowed_df = (
     raw_data_df
+    .where(F.col("event_time") >= F.expr(f"current_timestamp() - interval 16 minutes"))
     .withWatermark("event_time", window_dur)
-    .groupBy(window(timeColumn="event_time", windowDuration=window_dur, slideDuration="1 second").alias("window"))
+    .groupBy(window(timeColumn="event_time", windowDuration=window_dur, slideDuration="1 minute").alias("window"))
     .agg(
         F.count(F.lit(1)).alias("num_of_rows"),
         F.sum(F.when(F.col("color_name")=="Black", 1).otherwise(0)).alias("num_of_black"),
@@ -62,11 +94,11 @@ aggregated_alerts_windowed_df = (
         F.max(F.col("gear")).alias("maximum_gear"),
         F.max(F.col("rpm")).alias("maximum_rpm")
         )
-    .withColumn("current_time_date", F.date_format(F.expr(f"current_timestamp()"), "dd/MM/yyyy HH:mm:ss"))
     .withColumn("window_end", F.date_format(F.col("window.end"), "dd/MM/yyyy HH:mm:ss"))
-    .where(F.col("current_time_date") == F.col("window_end"))
+    .withColumn("last_minute", F.date_format(F.date_trunc("minute", F.current_timestamp()), "dd/MM/yyyy HH:mm:ss"))
+    .where(F.col("last_minute") == F.col("window_end"))
     .select(
-        #F.col("current_time_date"),
+        #F.col("last_minute"),
         F.date_format(F.col("window.start"), "dd/MM/yyyy HH:mm:ss").alias("window_start"),
         F.col("window_end"),
         F.col("num_of_rows").cast(T.IntegerType()).alias("num_of_rows"),

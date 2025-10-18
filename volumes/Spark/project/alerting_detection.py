@@ -55,23 +55,23 @@ filtered_df = (
     )
 )
 
-###Create new topic
-kafka_admin_client = KafkaAdminClient(bootstrap_servers=[course_broker])
-new_topic = NewTopic(name=output_topic, num_partitions=1, replication_factor=1)
+# ###Create new topic
+# kafka_admin_client = KafkaAdminClient(bootstrap_servers=[course_broker])
+# new_topic = NewTopic(name=output_topic, num_partitions=1, replication_factor=1)
 
-try:
-    kafka_admin_client.create_topics(new_topics=[new_topic], validate_only=False)
-except kafka_errors.TopicAlreadyExistsError as ta:
-    print("\n\n", "="*100)
-    print(f"\n\ntopic \"{output_topic}\" already exists")
-    print(ta)
-    print("="*100, "\n\n")
-except kafka_errors.InvalidReplicationFactorError as rf:
-    print("\n\n", "="*100)
-    print(rf)
-    print("="*100, "\n\n")
-except Exception as e:
-    pass
+# try:
+#     kafka_admin_client.create_topics(new_topics=[new_topic], validate_only=False)
+# except kafka_errors.TopicAlreadyExistsError as ta:
+#     print("\n\n", "="*100)
+#     print(f"\n\ntopic \"{output_topic}\" already exists")
+#     print(ta)
+#     print("="*100, "\n\n")
+# except kafka_errors.InvalidReplicationFactorError as rf:
+#     print("\n\n", "="*100)
+#     print(rf)
+#     print("="*100, "\n\n")
+# except Exception as e:
+#     pass
 
 filtered_producer = (
     filtered_df

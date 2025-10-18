@@ -1,0 +1,51 @@
+[2025-10-15T13:16:15.074+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pyspark_project_pipeline.cars_create manual__2025-10-15T13:15:19.836888+00:00 [queued]>
+[2025-10-15T13:16:15.082+0000] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pyspark_project_pipeline.cars_create manual__2025-10-15T13:15:19.836888+00:00 [queued]>
+[2025-10-15T13:16:15.082+0000] {taskinstance.py:2193} INFO - Starting attempt 1 of 1
+[2025-10-15T13:16:15.092+0000] {taskinstance.py:2217} INFO - Executing <Task(_PythonDecoratedOperator): cars_create> on 2025-10-15 13:15:19.836888+00:00
+[2025-10-15T13:16:15.097+0000] {standard_task_runner.py:60} INFO - Started process 151 to run task
+[2025-10-15T13:16:15.099+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'pyspark_project_pipeline', 'cars_create', 'manual__2025-10-15T13:15:19.836888+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/pyspark_project_pipeline.py', '--cfg-path', '/tmp/tmpn0_qar9q']
+[2025-10-15T13:16:15.101+0000] {standard_task_runner.py:88} INFO - Job 37: Subtask cars_create
+[2025-10-15T13:16:15.148+0000] {task_command.py:423} INFO - Running <TaskInstance: pyspark_project_pipeline.cars_create manual__2025-10-15T13:15:19.836888+00:00 [running]> on host 6cb9a48b2a55
+[2025-10-15T13:16:15.207+0000] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='pyspark_project_pipeline' AIRFLOW_CTX_TASK_ID='cars_create' AIRFLOW_CTX_EXECUTION_DATE='2025-10-15T13:15:19.836888+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-10-15T13:15:19.836888+00:00'
+[2025-10-15T13:16:27.163+0000] {pyspark_project_pipeline.py:50} INFO - STDOUT: :: loading settings :: url = jar:file:/usr/local/lib/python3.10/dist-packages/pyspark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+
+[2025-10-15T13:16:27.164+0000] {pyspark_project_pipeline.py:51} INFO - STDERR: Ivy Default Cache set to: /root/.ivy2/cache
+The jars for the packages stored in: /root/.ivy2/jars
+org.apache.hadoop#hadoop-aws added as a dependency
+com.amazonaws#aws-java-sdk-bundle added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-ec47cfd5-405a-4271-81e7-1281b7122083;1.0
+	confs: [default]
+	found org.apache.hadoop#hadoop-aws;3.3.2 in central
+	found com.amazonaws#aws-java-sdk-bundle;1.11.1026 in central
+	found org.wildfly.openssl#wildfly-openssl;1.0.7.Final in central
+:: resolution report :: resolve 181ms :: artifacts dl 5ms
+	:: modules in use:
+	com.amazonaws#aws-java-sdk-bundle;1.11.1026 from central in [default]
+	org.apache.hadoop#hadoop-aws;3.3.2 from central in [default]
+	org.wildfly.openssl#wildfly-openssl;1.0.7.Final from central in [default]
+	:: evicted modules:
+	com.amazonaws#aws-java-sdk-bundle;1.11.901 by [com.amazonaws#aws-java-sdk-bundle;1.11.1026] in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   4   |   0   |   0   |   1   ||   3   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-ec47cfd5-405a-4271-81e7-1281b7122083
+	confs: [default]
+	0 artifacts copied, 3 already retrieved (0kB/4ms)
+25/10/15 13:16:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+25/10/15 13:16:22 WARN MetricsConfig: Cannot locate configuration: tried hadoop-metrics2-s3a-file-system.properties,hadoop-metrics2.properties
+25/10/15 13:16:23 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+25/10/15 13:16:24 WARN AbstractS3ACommitterFactory: Using standard FileOutputCommitter to commit work. This is slow and potentially unsafe.
+
+[Stage 0:>                                                          (0 + 1) / 1]
+
+                                                                                
+
+[2025-10-15T13:16:27.164+0000] {python.py:202} INFO - Done. Returned value was: None
+[2025-10-15T13:16:27.173+0000] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=pyspark_project_pipeline, task_id=cars_create, execution_date=20251015T131519, start_date=20251015T131615, end_date=20251015T131627
+[2025-10-15T13:16:27.207+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-10-15T13:16:27.227+0000] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check

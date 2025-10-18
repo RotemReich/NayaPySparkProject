@@ -632,3 +632,45 @@ TypeError: too many positional arguments
 [2025-10-15T08:02:53.400+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:53.400+0000] {dag.py:3047} INFO - Sync 1 DAGs
 [2025-10-15T08:02:53.410+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:02:53.409+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
 [2025-10-15T08:02:53.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.290 seconds
+[2025-10-15T08:03:24.184+0000] {processor.py:161} INFO - Started process (PID=2694) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:03:24.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:03:24.185+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:03:24.185+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:03:24.377+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:03:24.392+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:03:24.392+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:03:24.401+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:03:24.401+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:03:24.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.236 seconds
+[2025-10-15T08:03:54.560+0000] {processor.py:161} INFO - Started process (PID=2753) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:03:54.562+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:03:54.562+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:03:54.562+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:03:54.752+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:03:54.767+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:03:54.767+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:03:54.777+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:03:54.776+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:03:54.792+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.235 seconds
+[2025-10-15T08:04:25.146+0000] {processor.py:161} INFO - Started process (PID=2812) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:04:25.147+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:04:25.148+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:04:25.148+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:04:25.340+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:04:25.356+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:04:25.356+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:04:25.367+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:04:25.367+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:04:25.383+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.240 seconds
+[2025-10-15T08:04:55.665+0000] {processor.py:161} INFO - Started process (PID=2871) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:04:55.666+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:04:55.667+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:04:55.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:04:55.862+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:04:55.877+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:04:55.877+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:04:55.886+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:04:55.886+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:04:55.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.240 seconds
+[2025-10-15T08:05:22.224+0000] {processor.py:161} INFO - Started process (PID=2930) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:05:22.225+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:05:22.226+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:05:22.226+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:05:22.427+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:05:22.444+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:05:22.444+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:05:22.453+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:05:22.453+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:05:22.473+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.251 seconds
+[2025-10-15T08:05:30.295+0000] {processor.py:161} INFO - Started process (PID=2931) to work on /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:05:30.296+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/pyspark_project_dims.py for tasks to queue
+[2025-10-15T08:05:30.297+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:05:30.297+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:05:30.498+0000] {processor.py:840} INFO - DAG(s) 'pyspark_project_pipline' retrieved from /opt/airflow/dags/pyspark_project_dims.py
+[2025-10-15T08:05:30.513+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:05:30.513+0000] {dag.py:3047} INFO - Sync 1 DAGs
+[2025-10-15T08:05:30.522+0000] {logging_mixin.py:188} INFO - [2025-10-15T08:05:30.522+0000] {dag.py:3834} INFO - Setting next_dagrun for pyspark_project_pipline to None, run_after=None
+[2025-10-15T08:05:30.542+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/pyspark_project_dims.py took 0.249 seconds

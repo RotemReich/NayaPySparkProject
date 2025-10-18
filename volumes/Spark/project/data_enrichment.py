@@ -4,9 +4,10 @@ from pyspark.sql import types as T
 from kafka.admin import KafkaAdminClient, NewTopic
 from kafka import errors as kafka_errors
 import os
+import time
 
 JARs = ["org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2","org.apache.hadoop:hadoop-aws:3.3.2,com.amazonaws:aws-java-sdk-bundle:1.11.901"]
-####Define variables
+
 spark = (
     SparkSession
     .builder
@@ -21,6 +22,7 @@ spark = (
     .getOrCreate()
 )
 
+####Define variables
 course_broker = "course-kafka:9092"
 input_topic = "sensors-sample"
 output_topic = "samples-enriched"
@@ -35,9 +37,9 @@ schem = T.StructType([
 ])
 ###############
 
-models_df = spark.read.csv("s3a://sparkproject/data/dims/car_models.csv", header=True)
-colors_df = spark.read.csv("s3a://sparkproject/data/dims/car_colors.csv", header=True)
-cars_df = spark.read.csv("s3a://sparkproject/data/dims/cars.csv", header=True)
+models_df = spark.read.csv("s3a://spark/data/dims/car_models.csv", header=True)
+colors_df = spark.read.csv("s3a://spark/data/dims/car_colors.csv", header=True)
+cars_df = spark.read.csv("s3a://spark/data/dims/cars.csv", header=True)
 
 models_df.cache()
 colors_df.cache()
@@ -51,7 +53,7 @@ raw_data_df = (
     .option("kafka.bootstrap.servers", course_broker)
     .option("subscribe", input_topic)
     .option("startingOffsets", "earliest")
-    .option("failOnDataLoss", "false") #Don't fall it some data is lost
+    .option("failOnDataLoss", "false") #Don't fall if some data is lost
     .load()
     .selectExpr("CAST(value AS STRING) AS json_value")
     .select(F.from_json(F.col("json_value"), schem).alias("value"))
@@ -80,18 +82,18 @@ enriched_df = (
 )
 #enriched_df.writeStream.format("console").outputMode("append").start().awaitTermination() #print batch
 
-#create kafka topic
-admin_client = KafkaAdminClient(bootstrap_servers=[course_broker])
-new_topic = NewTopic(name=output_topic, num_partitions=1, replication_factor=1)
+# #create kafka topic
+# admin_client = KafkaAdminClient(bootstrap_servers=[course_broker])
+# new_topic = NewTopic(name=output_topic, num_partitions=1, replication_factor=1)
 
-try:
-    admin_client.create_topics(new_topics=[new_topic], validate_only=False)
-except kafka_errors.TopicAlreadyExistsError:
-    print("="*100)
-    print(f"\n\nDidn't create a new topic, topic \"{output_topic}\" already exists\n\n")
-    print("="*100, "\n")
-except kafka_errors.InvalidReplicationFactorError as rf:
-    print("="*100, f"\n\nError {rf.errno}: {rf.message}\n\n", "="*100)
+# try:
+#     admin_client.create_topics(new_topics=[new_topic], validate_only=False)
+# except kafka_errors.TopicAlreadyExistsError:
+#     print("="*100)
+#     print(f"\n\nDidn't create a new topic, topic \"{output_topic}\" already exists\n\n")
+#     print("="*100, "\n")
+# except kafka_errors.InvalidReplicationFactorError as rf:
+#     print("="*100, f"\n\nError {rf.errno}: {rf.message}\n\n", "="*100)
 
 
 ### Push enriched data into the "samples-enriched" topic
@@ -102,7 +104,7 @@ enriched_producer = (
     .format("kafka")
     .option("kafka.bootstrap.servers", course_broker)
     .option("topic", output_topic)
-    .option("checkpointLocation", "/tmp/spark_project_checkpoints/samples-enriched")
+    .option("checkpointLocation", f"/tmp/spark_project_checkpoints/samples-enriched-{int(time.time())}")
     .outputMode("append")
     .start()
     .awaitTermination()
