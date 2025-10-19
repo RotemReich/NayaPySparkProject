@@ -82,7 +82,7 @@ window_dur = "15 minutes"
 
 aggregated_alerts_windowed_df = (
     raw_data_df
-    .where(F.col("event_time") >= F.expr(f"current_timestamp() - interval 16 minutes"))
+    #.where(F.col("event_time") >= F.expr(f"current_timestamp() - interval 16 minutes"))
     .withWatermark("event_time", window_dur)
     .groupBy(window(timeColumn="event_time", windowDuration=window_dur, slideDuration="1 minute").alias("window"))
     .agg(
